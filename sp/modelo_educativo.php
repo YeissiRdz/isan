@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="es-mx">
 
 
 <link rel="stylesheet" href="../styles_sp/modelo_educativo.css">
@@ -11,7 +11,7 @@
     <section class="first_section_niveles_educativos">
         <div class="first_section_niveles_educativos_img" style="background-image: url(../img_sp/modelo_educativo/portada.png);"></div>
         <div class="first_section_niveles_educativos_portada">
-            <h2 class="first_section_niveles_educativos_title">Preparatoria Abierta ISAN</h2>
+            <h2 class="first_section_niveles_educativos_title">Modelo Educativo ISAN</h2>
             <p class="first_section_niveles_educativos_sibtitle"><strong>Formando estudiantes que desarrollan su potencial y su propio conocimiento.</strong></p>
         </div>
     </section>
