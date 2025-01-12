@@ -169,7 +169,7 @@
 
     <section class="eighth_section">
         <div class="eighth_section_grid">
-            <div class="eighth_section_grid_div" id="eighth_section_grid_div_id1">
+            <div class="eighth_section_grid_div eighth_section_second_div" id="eighth_section_grid_div_id1">
                 <h2>Blog ISAN</h2>
                 <p>Noticias sobre actividades del colegio, <strong>artículos sobre tendencias educativas y tips</strong> para cada uno de nuestro alumnos.</p>
             </div>

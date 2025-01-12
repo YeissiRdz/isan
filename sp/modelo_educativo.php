@@ -212,8 +212,7 @@
                 </video>
             </div>
             <div class="ninth_section_grid_info">
-                <h2>Profesores comprometidos por</h2>
-                <h2>el amor a la enseñanza</h2>
+                <h2>Profesores comprometidos por el amor a la enseñanza</h2>
                 <p>El personal académico del Colegio ISAN está comprometido en ofrecer una educación que permita a cada estudiante desarrollar su potencial y convertirse en un agente de cambio en su entorno.</p>
                 <p>El profesionalismo de nuestros docentes se refleja en el éxito de cada uno de nuestros estudiantes.</p>
             </div>
