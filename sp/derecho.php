@@ -7,17 +7,17 @@
 <body>
 
     <section class="first_section_niveles_educativos">
-                <div class="first_section_niveles_educativos_img" style="background-image: url(../img_sp/contaduria/portada.png);"></div>
+                <div class="first_section_niveles_educativos_img" style="background-image: url(../img_sp/derecho/portada.png);"></div>
                 <div class="first_section_niveles_educativos_portada">
-                    <h2 class="first_section_niveles_educativos_title">Licenciatura en Contaduría Pública ISAN</h2>
-                    <p class="first_section_niveles_educativos_sibtitle">Formamos profesionales listos para administrar y gestionar instituciones de prestigio.</p>
+                    <h2 class="first_section_niveles_educativos_title">Licenciatura en Derecho ISAN</h2>
+                    <p class="first_section_niveles_educativos_sibtitle">Formamos abogados preparados para liderar y resolver desafíos legales en instituciones de prestigio.</p>
                 </div>
     </section>
 
     <section class="second_section">
         <div class="second_section_grid">
             <div class="second_section_grid_info">
-                <h2>Nuestros egresados han destacado al ser reconocidos por su <strong>excelencia académica y profesional en instituciones de prestigio a nivel mundial.</strong></h2>
+                <h2>Nuestros egresados en Derecho han sido reconocidos por su <strong>excelencia académica y su impacto en prestigiosas instituciones legales.</strong></h2>
             </div>
             <div class="second_section_grid_img">
                 <img src="../img_sp/contaduria/seventh_section_licenciatura.png">
@@ -29,27 +29,27 @@
     <section class="third_section">
         <div class="third_section_grid">
             <div class="third_section_img">
-                <img src="../img_sp/contaduria/third_section.jpg">
+                <img src="../img_sp/derecho/third_section.png">
             </div>
             <div class="third_section_info">
-                <h2>En ISAN, los estudiantes en Contaduría tienen la oportunidad de participar en actividades complementarias a su formación integral, como:</h2>
+                <h2>En ISAN, los estudiantes de la Licenciatura en Derecho complementan su formación integral participando en actividades como:</h2>
                 <div class="third_section_info_grid">
                     <div class="third_section_info_grid_actividades_1">
                         <ul>
-                            <li>Talleres de liderazgo</li>
-                            <li>Habilidades de negociación</li>
-                            <li>Resolución de conflictos</li>
-                            <li>Oratoria y debate</li>
-                            <li>Cursos de planeación financiera</li>
+                            <li>Talleres de argumentación jurídica</li>
+                            <li>Simulaciones de juicios orales</li>
+                            <li>Resolución de conflictos legales</li>
+                            <li>Oratoria y debate jurídico</li>
+                            <li>Análisis de casos legales reales</li>
                         </ul>
                     </div>
                     <div class="third_section_info_grid_actividades_1">
                         <ul>
-                            <li>Simulaciones empresariales</li>
-                            <li>Análisis de casos contables reales</li>
-                            <li>Proyectos de responsabilidad social</li>
                             <li>Talleres de ética profesional</li>
-                            <li>Conferencias con expertos del sector</li>
+                            <li>Conferencias con expertos en derecho</li>
+                            <li>Capacitación en mediación y arbitraje</li>
+                            <li>Visitas a instituciones judiciales</li>
+                            <li>Redacción de documentos legales</li>
                         </ul>
                     </div>
                 </div>
@@ -112,48 +112,109 @@
     <section class="sixth_section">
         <div class="sixth_section_grid">
             <div class="sixth_section_grid_img">
-                <img src="../img_sp/contaduria/sixth_section.png" alt="Imagen">
+                <img src="../img_sp/derecho/sixth_section.png" alt="Imagen">
             </div>
             <div class="sixth_section_grid_info">
-                <h2>En la Licenciatura en Contaduría ISAN, ofrecemos una formación integral en un entorno dinámico y profesional:</h2>
+                <h2>En la Licenciatura en Derecho ISAN, brindamos una formación integral en un entorno dinámico y profesional:</h2>
                 <div class="sixth_section_grid_info_wrap">
-                    <div class="sixth_section_grid_info_box">
-                        <img src="../img_sp/contaduria/sixth_section_1.png" alt="Icono Enseñanza Especializada">
-                        <p>Enseñanza especializada</p>
+                    <div class="sixth_section_grid_info_box" onclick="openModal(null,'sixth_section_modal1')">
+                        <img src="../img_sp/derecho/sixth_section_1.png" alt="Icono Enseñanza Especializada">
+                        <p>Conocimientos especializados</p>
                     </div>
-                    <div class="sixth_section_grid_info_box">
-                        <img src="../img_sp/contaduria/sixth_section_2.png" alt="Icono Aprendizaje Activo">
-                        <p>Aprendizaje activo</p>
+                    <div class="sixth_section_grid_info_box" onclick="openModal(null,'sixth_section_modal2')">
+                        <img src="../img_sp/derecho/sixth_section_2.png" alt="Icono Aprendizaje Activo">
+                        <p>Aprendizaje práctico</p>
                     </div>
-                    <div class="sixth_section_grid_info_box">
-                        <img src="../img_sp/contaduria/sixth_section_3.png" alt="Icono Aprendizaje Crítico">
+                    <div class="sixth_section_grid_info_box" onclick="openModal( null, 'sixth_section_modal3')">
+                        <img src="../img_sp/derecho/sixth_section_3.png" alt="Icono Aprendizaje Crítico">
                         <p>Desarrollo de pensamiento crítico</p>
                     </div>
-                    <div class="sixth_section_grid_info_box">
-                        <img src="../img_sp/contaduria/sixth_section_4.png" alt="Icono Preparación global">
-                        <p>Preparación global</p>
+                    <div class="sixth_section_grid_info_box" onclick="openModal(null, 'sixth_section_modal4')">
+                        <img src="../img_sp/derecho/sixth_section_4.png" alt="Icono Preparación global">
+                        <p>Perspectiva global</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Modals -->
+    <div id="sixth_section_modal1" class="sixth_section_modal">
+        <div class="sixth_section_modal-content">
+            <span class="sixth_section_close" onclick="closeModal('sixth_section_modal1')">&times;</span>
+            <img src="../img_sp/derecho/sixth_section_modal_1.png">
+            <h2>Conocimientos especializados</h2>
+            <p>ISAN se enfoca en proporcionar una formación sólida en temas clave del Derecho, como derecho civil, penal, constitucional, administrativo, internacional, entre otros.</p>
+            <ul>
+                <li>Derecho civil, penal y constitucional.</li>
+                <li>Legislación mercantil y fiscal.</li>
+                <li>Normatividad internacional.</li>
+                <li>Actualización en reformas legales.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sixth_section_modal2" class="sixth_section_modal">
+        <div class="sixth_section_modal-content">
+            <span class="sixth_section_close" onclick="closeModal('sixth_section_modal2')">&times;</span>
+            <img src="../img_sp/derecho/sixth_section_modal_2.png">
+            <h2>Aprendizaje Práctico</h2>
+            <p>La formación incluye prácticas profesionales y simulaciones que preparan a los estudiantes para enfrentarse a escenarios reales.</p>
+            <ul>
+                <li>Juicios simulados.</li>
+                <li>Análisis de casos reales.</li>
+                <li>Prácticas en despachos legales.</li>
+                <li>Resolución de conflictos jurídicos.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sixth_section_modal3" class="sixth_section_modal">
+        <div class="sixth_section_modal-content">
+            <span class="sixth_section_close" onclick="closeModal('sixth_section_modal3')">&times;</span>
+            <img src="../img_sp/derecho/sixth_section_modal_3.png">
+            <h2>Desarrollo de Pensamiento Crítico</h2>
+            <p>ISAN fomenta que los estudiantes analicen, cuestionen y evalúen diferentes perspectivas legales para tomar decisiones fundamentadas.</p>
+            <ul>
+                <li>Debate sobre dilemas éticos.</li>
+                <li>Interpretación de leyes.</li>
+                <li>Resolución de problemas jurídicos.</li>
+                <li>Construcción de argumentos sólidos.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sixth_section_modal4" class="sixth_section_modal">
+        <div class="sixth_section_modal-content">
+            <span class="sixth_section_close" onclick="closeModal('sixth_section_modal4')">&times;</span>
+            <img src="../img_sp/derecho/sixth_section_modal_3.png">
+            <h2>Perspectiva Global</h2>
+            <p>El programa integra una visión internacional del Derecho, considerando normativas globales y tendencias legales.</p>
+            <ul>
+                <li>Derecho internacional público.</li>
+                <li>Análisis comparativo de sistemas legales.</li>
+                <li>Conexión con redes legales globales.</li>
+                <li>Enfoque multicultural en el ejercicio jurídico.</li>
+            </ul>
+        </div>
+    </div>
+
 
 
     <section class="seventh_section">
-        <h2><strong>¡LA EDUCACIÓN TE ABRE PUERTAS!</strong> Como en el caso de Daniela</h2>
+        <h2><strong>¡DEFENDIENDO LA JUSTICIA, TRANSFORMANDO EL FUTURO!</strong></h2>
         <div class="seventh_section_grid">
             <div class="seventh_section_grid_info">
-                <p>Queremos que nuestros alumnos sean líderes en su entorno, por lo que fomentamos valores y competencias clave mediante actividades como:</p>
+                <p>En ISAN, formamos abogados líderes en su entorno, promoviendo valores y competencias clave a través de:</p>
                 <ul>
-                    <li>Trabajo colaborativo en proyectos interdisciplinarios</li>
-                    <li>Desarrollo de habilidades de comunicación efectiva</li>
-                    <li>Fomento del pensamiento crítico y la toma de decisiones</li>
-                    <li>Participación en actividades culturales y sociales</li>
+                    <li>Capacitación en negociación y mediación de conflictos legales.</li>
+                    <li>Desarrollo de habilidades de argumentación y comunicación legal</li>
+                    <li>Participación en foros, actividades sociales y simulaciones legales.</li>
+                    <li>Estudio de legislación comparada en un contexto global.</li>
                 </ul>
             </div>
             <div class="seventh_section_grid_video">
-                <video controls poster="../img_sp/contaduria/seventh_section.png" class="third_section_grid_himno_video">
+                <video controls poster="../img_sp/derecho/seventh_section_video.png" class="third_section_grid_himno_video">
                     <source src="../img_sp/modelo_educativo/third_section_video.mp4" type="video/mp4">
                     Tu navegador no soporta la reproducción de video. Por favor, actualiza tu navegador.
                 </video>
@@ -192,23 +253,22 @@
     </section>
 
     <section class="tenth_section">
-        <h2>¡Bienvenido a construir una etapa diferente
-        en uno de los mejores institutos en México!</h2>
+        <h2>¡Bienvenido a construir una etapa diferente en uno de los mejores institutos en México!</h2>
         <div class="tenth_section_grid">
-            <div class="tenth_section_grid_item" style="background-image: url(../img_sp/contaduria/tenth_section_1.png);">
+            <div class="tenth_section_grid_item" style="background-image: url(../img_sp/derecho/tenth_section_1.png);">
                 <div class="tenth_section_grid_item_info">
-                    <p>Instalaciones Educativas<br><span>ISAN</span></p>
+                    <p>Instalaciones de vanguardia<br><span>ISAN</span></p>
                     <div class="tenth_section_grid_item_meta">
-                        <a href="javascript:void(0)"><i class="fa-solid fa-circle-play"></i></a>
+                        <a href="#" onclick="openModal(event, 'modal1', 'video1')"><i class="fa-solid fa-circle-play"></i></a>
                         <span>Video de 1 min.</span>
                     </div>
                 </div>
             </div>
-            <div class="tenth_section_grid_item" style="background-image: url(../img_sp/contaduria/tenth_section_2.png);">
+            <div class="tenth_section_grid_item" style="background-image: url(../img_sp/derecho/tenth_section_2.png);">
                 <div class="tenth_section_grid_item_info">
-                    <p>Orientación Vocacional <br><span>ISAN</span></p>
+                    <p>Análisis de casos legales reales<br><span>ISAN</span></p>
                     <div class="tenth_section_grid_item_meta">
-                        <a href="../sp/instalaciones.php"><i class="fa-solid fa-circle-play"></i></a>
+                        <a href="#" onclick="openModal(event, 'modal2', 'video2')"><i class="fa-solid fa-circle-play"></i></a>
                         <span>Video de 1 min.</span>
                     </div>
                 </div>
@@ -216,26 +276,67 @@
         </div>
 
         <div class="tenth_section_grid">
-            <div class="tenth_section_grid_item" style="background-image: url(../img_sp/contaduria/tenth_section_3.png);">
+            <div class="tenth_section_grid_item" style="background-image: url(../img_sp/derecho/tenth_section_3.png);">
                 <div class="tenth_section_grid_item_info">
-                    <p>Formación Económica <br><span>ISAN</span></p>
+                    <p>Formación en derecho económico<br><span>ISAN</span></p>
                     <div class="tenth_section_grid_item_meta">
-                        <a href="../sp/instalaciones.php"><i class="fa-solid fa-circle-play"></i></a>
+                        <a href="#" onclick="openModal(event, 'modal3', 'video3')"><i class="fa-solid fa-circle-play"></i></a>
                         <span>Video de 1 min.</span>
                     </div>
                 </div>
             </div>
-            <div class="tenth_section_grid_item" style="background-image: url(../img_sp/contaduria/tenth_section_4.png);">
+            <div class="tenth_section_grid_item" style="background-image: url(../img_sp/derecho/tenth_section_4.png);">
                 <div class="tenth_section_grid_item_info">
-                    <p>Contabilidad Financiera <br><span>ISAN</span></p>
+                    <p>Capacitación en derecho constitucional<br><span>ISAN</span></p>
                     <div class="tenth_section_grid_item_meta">
-                        <a href="../sp/instalaciones.php"><i class="fa-solid fa-circle-play"></i></a>
+                        <a href="#" onclick="openModal(event, 'modal4', 'video4')"><i class="fa-solid fa-circle-play"></i></a>
                         <span>Video de 1 min.</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Modals -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1', 'video1')">&times;</span>
+            <video id="video1" width="640" height="360" controls>
+                <source src="../img_sp/derecho/tenth_section.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2', 'video2')">&times;</span>
+            <video id="video2" width="640" height="360" controls>
+                <source src="../img_sp/derecho/tenth_section_2.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3', 'video3')">&times;</span>
+            <video id="video3" width="640" height="360" controls>
+                <source src="../img_sp/derecho/tenth_section.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </div>
+    </div>
+
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal4', 'video4')">&times;</span>
+            <video id="video4" width="640" height="360" controls>
+                <source src="../img_sp/derecho/tenth_section_2.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </div>
+    </div>
 
 
     <section class="eleventh_section">
@@ -285,4 +386,44 @@
         </div>
     </section>
 </body>
+<script>
+    function openModal(event, modalId, videoId = null) {
+        if (event) event.preventDefault();
+        var modal = document.getElementById(modalId);
+        modal.style.display = 'block';
+        if (videoId) {
+            var video = document.getElementById(videoId);
+            video.play();
+        }
+    }
+
+    function closeModal(modalId, videoId = null) {
+        var modal = document.getElementById(modalId);
+        modal.style.display = 'none';
+        if (videoId) {
+            var video = document.getElementById(videoId);
+            video.pause();
+            video.currentTime = 0;
+        }
+    }
+
+    window.onclick = function(event) {
+        // Para modales con video
+        var videoModals = document.getElementsByClassName('modal');
+        for (var i = 0; i < videoModals.length; i++) {
+            if (event.target == videoModals[i]) {
+                var video = videoModals[i].getElementsByTagName('video')[0];
+                closeModal(videoModals[i].id, video.id);
+            }
+        }
+
+        // Para modales simples
+        var infoModals = document.getElementsByClassName('sixth_section_modal');
+        for (var j = 0; j < infoModals.length; j++) {
+            if (event.target == infoModals[j]) {
+                closeModal(infoModals[j].id);
+            }
+        }
+    };
+</script>
 </html>

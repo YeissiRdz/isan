@@ -648,11 +648,36 @@ body {
         height: auto;
         border-radius: 8px;
         overflow: hidden;
+        position: relative; 
     }
     
     #eighth_section_grid_div_id1 {
         justify-content: center;
         align-items: center;
+        position: relative;
+        z-index: 1; 
+        color: #000;
+        box-shadow: 6px 9px 10px rgb(0, 0, 0, 0.5);
+        cursor: pointer;
+        transition: transform 0.4s ease;
+    }
+
+    #eighth_section_grid_div_id1:hover{
+        transform: scale(1.05);
+    }
+    
+    #eighth_section_grid_div_id1::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img_sp/derecho/blog.png);
+        background-position: center;
+        background-size: cover;
+        opacity: 0.3;
+        z-index: -1; 
     }
 
     .eighth_section_second_div {
@@ -1392,11 +1417,36 @@ body {
         height: auto;
         border-radius: 8px;
         overflow: hidden;
+        position: relative; 
     }
     
-    #eighth_section_grid_div_id1{
+    #eighth_section_grid_div_id1 {
         justify-content: center;
         align-items: center;
+        position: relative;
+        z-index: 1; 
+        color: #000;
+        box-shadow: 6px 9px 10px rgb(0, 0, 0, 0.5);
+        cursor: pointer;
+        transition: transform 0.4s ease;
+    }
+
+    #eighth_section_grid_div_id1:hover{
+        transform: scale(1.05);
+    }
+    
+    #eighth_section_grid_div_id1::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img_sp/derecho/blog.png);
+        background-position: center;
+        background-size: cover;
+        opacity: 0.3;
+        z-index: -1; 
     }
     .eighth_section_second_div {
         box-shadow: 6px 9px 10px rgb(0, 0, 0, 0.5);
@@ -2106,11 +2156,36 @@ body {
         height: auto;
         border-radius: 8px;
         overflow: hidden;
+        position: relative; 
     }
-
+    
     #eighth_section_grid_div_id1 {
         justify-content: center;
         align-items: center;
+        position: relative;
+        z-index: 1; 
+        color: #000;
+        box-shadow: 6px 9px 10px rgb(0, 0, 0, 0.5);
+        cursor: pointer;
+        transition: transform 0.4s ease;
+    }
+
+    #eighth_section_grid_div_id1:hover{
+        transform: scale(1.05);
+    }
+    
+    #eighth_section_grid_div_id1::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img_sp/derecho/blog.png);
+        background-position: center;
+        background-size: cover;
+        opacity: 0.3;
+        z-index: -1; 
     }
 
     .eighth_section_second_div {
@@ -2825,12 +2900,36 @@ body {
         height: auto;
         border-radius: 8px;
         overflow: hidden;
+        position: relative; 
     }
-
+    
     #eighth_section_grid_div_id1 {
         justify-content: center;
         align-items: center;
-        text-align: center;
+        position: relative;
+        z-index: 1; 
+        color: #000;
+        box-shadow: 6px 9px 10px rgb(0, 0, 0, 0.5);
+        cursor: pointer;
+        transition: transform 0.4s ease;
+    }
+
+    #eighth_section_grid_div_id1:hover{
+        transform: scale(1.05);
+    }
+    
+    #eighth_section_grid_div_id1::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img_sp/derecho/blog.png);
+        background-position: center;
+        background-size: cover;
+        opacity: 0.3;
+        z-index: -1; 
     }
 
     .eighth_section_second_div {
@@ -3545,11 +3644,36 @@ body {
         height: 500px;
         border-radius: 8px;
         overflow: hidden;
+        position: relative; 
     }
     
     #eighth_section_grid_div_id1 {
         justify-content: center;
         align-items: center;
+        position: relative;
+        z-index: 1; 
+        color: #000;
+        box-shadow: 6px 9px 10px rgb(0, 0, 0, 0.5);
+        cursor: pointer;
+        transition: transform 0.4s ease;
+    }
+
+    #eighth_section_grid_div_id1:hover{
+        transform: scale(1.05);
+    }
+    
+    #eighth_section_grid_div_id1::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img_sp/derecho/blog.png);
+        background-position: center;
+        background-size: cover;
+        opacity: 0.3;
+        z-index: -1; 
     }
 
     .eighth_section_second_div {
@@ -4271,12 +4395,36 @@ body {
         height: 550px;
         border-radius: 8px;
         overflow: hidden;
+        position: relative; 
     }
     
     #eighth_section_grid_div_id1 {
         justify-content: center;
         align-items: center;
-        text-align: center;
+        position: relative;
+        z-index: 1; 
+        color: #000;
+        box-shadow: 6px 9px 10px rgb(0, 0, 0, 0.5);
+        cursor: pointer;
+        transition: transform 0.4s ease;
+    }
+
+    #eighth_section_grid_div_id1:hover{
+        transform: scale(1.05);
+    }
+    
+    #eighth_section_grid_div_id1::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url(../img_sp/derecho/blog.png);
+        background-position: center;
+        background-size: cover;
+        opacity: 0.3;
+        z-index: -1; 
     }
 
     .eighth_section_second_div {

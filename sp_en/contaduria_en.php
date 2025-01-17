@@ -112,31 +112,93 @@
     <section class="sixth_section">
         <div class="sixth_section_grid">
             <div class="sixth_section_grid_img">
-                <img src="../img_sp/contaduria/sixth_section.png" alt="Imagen">
+                <img src="../img_sp/derecho/sixth_section.png" alt="Imagen">
             </div>
             <div class="sixth_section_grid_info">
-                <h2>At ISAN, we offer a comprehensive education in a dynamic and professional environment:</h2>
+                <h2>In the ISAN Accounting Degree, we offer comprehensive training in a dynamic and professional environment:</h2>
                 <div class="sixth_section_grid_info_wrap">
-                    <div class="sixth_section_grid_info_box">
-                        <img src="../img_sp/contaduria/sixth_section_1.png" alt="Icono Enseñanza Especializada">
-                        <p>Specialized education</p>
+                    <div class="sixth_section_grid_info_box" onclick="openModal(null,'sixth_section_modal1')">
+                        <img src="../img_sp/derecho/sixth_section_1.png" alt="Icono Enseñanza Especializada">
+                        <p>Specialized teaching</p>
                     </div>
-                    <div class="sixth_section_grid_info_box">
-                        <img src="../img_sp/contaduria/sixth_section_2.png" alt="Icono Aprendizaje Activo">
-                        <p>Active learning</p>
+                    <div class="sixth_section_grid_info_box" onclick="openModal(null,'sixth_section_modal2')">
+                        <img src="../img_sp/derecho/sixth_section_2.png" alt="Icono Aprendizaje Activo">
+                        <p>Practical learning</p>
                     </div>
-                    <div class="sixth_section_grid_info_box">
-                        <img src="../img_sp/contaduria/sixth_section_3.png" alt="Icono Aprendizaje Crítico">
+                    <div class="sixth_section_grid_info_box" onclick="openModal( null, 'sixth_section_modal3')">
+                        <img src="../img_sp/derecho/sixth_section_3.png" alt="Icono Aprendizaje Crítico">
                         <p>Development of critical thinking</p>
                     </div>
-                    <div class="sixth_section_grid_info_box">
-                        <img src="../img_sp/contaduria/sixth_section_4.png" alt="Icono Preparación global">
-                        <p>Overall preparation</p>
+                    <div class="sixth_section_grid_info_box" onclick="openModal(null, 'sixth_section_modal4')">
+                        <img src="../img_sp/derecho/sixth_section_4.png" alt="Icono Preparación global">
+                        <p>Global preparation</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Modals -->
+    <div id="sixth_section_modal1" class="sixth_section_modal">
+        <div class="sixth_section_modal-content">
+            <span class="sixth_section_close" onclick="closeModal('sixth_section_modal1')">&times;</span>
+            <img src="../img_sp/derecho/sixth_section_modal_1.png">
+            <h2>Specialized Teaching</h2>
+            <p>ISAN provides solid training in key accounting areas such as financial accounting, auditing, taxation, and cost management.</p>
+            <ul>
+                <li>Financial and tax accounting.</li>
+                <li>Auditing and internal control.</li>
+                <li>Cost and budget management.</li>
+                <li>Financial Reporting Standards (NIF).</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sixth_section_modal2" class="sixth_section_modal">
+        <div class="sixth_section_modal-content">
+            <span class="sixth_section_close" onclick="closeModal('sixth_section_modal2')">&times;</span>
+            <img src="../img_sp/derecho/sixth_section_modal_2.png">
+            <h2>Practical Learning</h2>
+            <p>The program includes activities that prepare students to face real financial challenges through accounting tools and methodologies.</p>
+            <ul>
+                <li>Accounting simulations.</li>
+                <li>Preparation of financial statements.</li>
+                <li>Business case analysis.</li>
+                <li>Use of advanced accounting software.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sixth_section_modal3" class="sixth_section_modal">
+        <div class="sixth_section_modal-content">
+            <span class="sixth_section_close" onclick="closeModal('sixth_section_modal3')">&times;</span>
+            <img src="../img_sp/derecho/sixth_section_modal_3.png">
+            <h2>Development of Critical Thinking</h2>
+            <p>ISAN promotes in-depth financial analysis and the design of economic strategies based on data.</p>
+            <ul>
+                <li>Assessment of financial risks.</li>
+                <li>Resolution of accounting issues.</li>
+                <li>Optimization of economic resources.</li>
+                <li>Strategic data analysis.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sixth_section_modal4" class="sixth_section_modal">
+        <div class="sixth_section_modal-content">
+            <span class="sixth_section_close" onclick="closeModal('sixth_section_modal4')">&times;</span>
+            <img src="../img_sp/derecho/sixth_section_modal_3.png">
+            <h2>Global Perspective</h2>
+            <p>The program integrates an international perspective on accounting, addressing global standards and regulations such as IFRS.</p>
+            <ul>
+                <li>International accounting.</li>
+                <li>IFRS standards and their application.</li>
+                <li>Impact of global markets on finance.</li>
+                <li>Multicultural financial strategies.</li>
+            </ul>
+        </div>
+    </div>
+
 
 
 
@@ -199,8 +261,8 @@
                 <div class="tenth_section_grid_item_info">
                     <p>Educational Facilities<br><span>ISAN</span></p>
                     <div class="tenth_section_grid_item_meta">
-                        <a href="javascript:void(0)"><i class="fa-solid fa-circle-play"></i></a>
-                        <span>Video of 1 min.</span>
+                        <a href="#" onclick="openModal(event, 'modal4', 'video4')"><i class="fa-solid fa-circle-play"></i></a>
+                        <span>1 min video.</span>
                     </div>
                 </div>
             </div>
@@ -208,8 +270,8 @@
                 <div class="tenth_section_grid_item_info">
                     <p>Vocational Guidance <br><span>ISAN</span></p>
                     <div class="tenth_section_grid_item_meta">
-                        <a href="../sp/instalaciones.php"><i class="fa-solid fa-circle-play"></i></a>
-                        <span>Video of 1 min.</span>
+                        <a href="#" onclick="openModal(event, 'modal4', 'video4')"><i class="fa-solid fa-circle-play"></i></a>
+                        <span>1 min video.</span>
                     </div>
                 </div>
             </div>
@@ -218,10 +280,10 @@
         <div class="tenth_section_grid">
             <div class="tenth_section_grid_item" style="background-image: url(../img_sp/contaduria/tenth_section_3.png);">
                 <div class="tenth_section_grid_item_info">
-                    <p>Economic Training <br><span>ISAN</span></p>
+                    <p>Formación Económica <br><span>ISAN</span></p>
                     <div class="tenth_section_grid_item_meta">
-                        <a href="../sp/instalaciones.php"><i class="fa-solid fa-circle-play"></i></a>
-                        <span>Video of 1 min.</span>
+                        <a href="#" onclick="openModal(event, 'modal4', 'video4')"><i class="fa-solid fa-circle-play"></i></a>
+                        <span>1 min video.</span>
                     </div>
                 </div>
             </div>
@@ -229,13 +291,55 @@
                 <div class="tenth_section_grid_item_info">
                     <p>Financial Accounting <br><span>ISAN</span></p>
                     <div class="tenth_section_grid_item_meta">
-                        <a href="../sp/instalaciones.php"><i class="fa-solid fa-circle-play"></i></a>
-                        <span>Video of 1 min.</span>
+                        <a href="#" onclick="openModal(event, 'modal4', 'video4')"><i class="fa-solid fa-circle-play"></i></a>
+                        <span>1 min video.</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+        <!-- Modals -->
+        <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1', 'video1')">&times;</span>
+            <video id="video1" width="640" height="360" controls>
+                <source src="../img_sp/derecho/tenth_section.mp4" type="video/mp4">
+                Your browser does not support video playback.
+            </video>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2', 'video2')">&times;</span>
+            <video id="video2" width="640" height="360" controls>
+                <source src="../img_sp/derecho/tenth_section_2.mp4" type="video/mp4">
+                Your browser does not support video playback.
+            </video>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3', 'video3')">&times;</span>
+            <video id="video3" width="640" height="360" controls>
+                <source src="../img_sp/derecho/tenth_section.mp4" type="video/mp4">
+                Your browser does not support video playback.
+            </video>
+        </div>
+    </div>
+
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal4', 'video4')">&times;</span>
+            <video id="video4" width="640" height="360" controls>
+                <source src="../img_sp/derecho/tenth_section_2.mp4" type="video/mp4">
+                Your browser does not support video playback.
+            </video>
+        </div>
+    </div>
 
 
     <section class="eleventh_section">

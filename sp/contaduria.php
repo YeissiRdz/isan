@@ -112,31 +112,93 @@
     <section class="sixth_section">
         <div class="sixth_section_grid">
             <div class="sixth_section_grid_img">
-                <img src="../img_sp/contaduria/sixth_section.png" alt="Imagen">
+                <img src="../img_sp/derecho/sixth_section.png" alt="Imagen">
             </div>
             <div class="sixth_section_grid_info">
                 <h2>En la Licenciatura en Contaduría ISAN, ofrecemos una formación integral en un entorno dinámico y profesional:</h2>
                 <div class="sixth_section_grid_info_wrap">
-                    <div class="sixth_section_grid_info_box">
-                        <img src="../img_sp/contaduria/sixth_section_1.png" alt="Icono Enseñanza Especializada">
+                    <div class="sixth_section_grid_info_box" onclick="openModal(null,'sixth_section_modal1')">
+                        <img src="../img_sp/derecho/sixth_section_1.png" alt="Icono Enseñanza Especializada">
                         <p>Enseñanza especializada</p>
                     </div>
-                    <div class="sixth_section_grid_info_box">
-                        <img src="../img_sp/contaduria/sixth_section_2.png" alt="Icono Aprendizaje Activo">
-                        <p>Aprendizaje activo</p>
+                    <div class="sixth_section_grid_info_box" onclick="openModal(null,'sixth_section_modal2')">
+                        <img src="../img_sp/derecho/sixth_section_2.png" alt="Icono Aprendizaje Activo">
+                        <p>Aprendizaje práctico</p>
                     </div>
-                    <div class="sixth_section_grid_info_box">
-                        <img src="../img_sp/contaduria/sixth_section_3.png" alt="Icono Aprendizaje Crítico">
+                    <div class="sixth_section_grid_info_box" onclick="openModal( null, 'sixth_section_modal3')">
+                        <img src="../img_sp/derecho/sixth_section_3.png" alt="Icono Aprendizaje Crítico">
                         <p>Desarrollo de pensamiento crítico</p>
                     </div>
-                    <div class="sixth_section_grid_info_box">
-                        <img src="../img_sp/contaduria/sixth_section_4.png" alt="Icono Preparación global">
+                    <div class="sixth_section_grid_info_box" onclick="openModal(null, 'sixth_section_modal4')">
+                        <img src="../img_sp/derecho/sixth_section_4.png" alt="Icono Preparación global">
                         <p>Preparación global</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Modals -->
+    <div id="sixth_section_modal1" class="sixth_section_modal">
+        <div class="sixth_section_modal-content">
+            <span class="sixth_section_close" onclick="closeModal('sixth_section_modal1')">&times;</span>
+            <img src="../img_sp/derecho/sixth_section_modal_1.png">
+            <h2>Enseñanza especializada</h2>
+            <p>ISAN proporciona una formación sólida en áreas clave de la contaduría, como contabilidad financiera, auditoría, fiscalidad y gestión de costos.</p>
+            <ul>
+                <li>Contabilidad financiera y fiscal.</li>
+                <li>Auditoría y control interno.</li>
+                <li>Gestión de costos y presupuestos.</li>
+                <li>Normas de información financiera (NIF).</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sixth_section_modal2" class="sixth_section_modal">
+        <div class="sixth_section_modal-content">
+            <span class="sixth_section_close" onclick="closeModal('sixth_section_modal2')">&times;</span>
+            <img src="../img_sp/derecho/sixth_section_modal_2.png">
+            <h2>Aprendizaje Práctico</h2>
+            <p>El programa incluye actividades que preparan a los estudiantes para enfrentar retos financieros reales mediante herramientas y metodologías contables.</p>
+            <ul>
+                <li>Simulaciones contables.</li>
+                <li>Elaboración de estados financieros.</li>
+                <li>Análisis de casos empresariales.</li>
+                <li>Uso de software contable avanzado.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sixth_section_modal3" class="sixth_section_modal">
+        <div class="sixth_section_modal-content">
+            <span class="sixth_section_close" onclick="closeModal('sixth_section_modal3')">&times;</span>
+            <img src="../img_sp/derecho/sixth_section_modal_3.png">
+            <h2>Desarrollo de Pensamiento Crítico</h2>
+            <p>ISAN fomenta el análisis financiero profundo y el diseño de estrategias económicas basadas en datos.</p>
+            <ul>
+                <li>Evaluación de riesgos financieros.</li>
+                <li>Resolución de problemas contables.</li>
+                <li>Optimización de recursos económicos.</li>
+                <li>Análisis estratégico de datos.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="sixth_section_modal4" class="sixth_section_modal">
+        <div class="sixth_section_modal-content">
+            <span class="sixth_section_close" onclick="closeModal('sixth_section_modal4')">&times;</span>
+            <img src="../img_sp/derecho/sixth_section_modal_3.png">
+            <h2>Perspectiva Global</h2>
+            <p>El programa integra una visión internacional de la contaduría, abordando normativas y estándares globales como las IFRS.</p>
+            <ul>
+                <li>Contabilidad internacional.</li>
+                <li>Normas IFRS y su aplicación.</li>
+                <li>Impacto de mercados globales en finanzas.</li>
+                <li>Estrategias financieras multiculturales.</li>
+            </ul>
+        </div>
+    </div>
+
 
 
 
@@ -199,7 +261,7 @@
                 <div class="tenth_section_grid_item_info">
                     <p>Instalaciones Educativas<br><span>ISAN</span></p>
                     <div class="tenth_section_grid_item_meta">
-                        <a href="javascript:void(0)"><i class="fa-solid fa-circle-play"></i></a>
+                        <a href="#" onclick="openModal(event, 'modal4', 'video4')"><i class="fa-solid fa-circle-play"></i></a>
                         <span>Video de 1 min.</span>
                     </div>
                 </div>
@@ -208,7 +270,7 @@
                 <div class="tenth_section_grid_item_info">
                     <p>Orientación Vocacional <br><span>ISAN</span></p>
                     <div class="tenth_section_grid_item_meta">
-                        <a href="../sp/instalaciones.php"><i class="fa-solid fa-circle-play"></i></a>
+                        <a href="#" onclick="openModal(event, 'modal4', 'video4')"><i class="fa-solid fa-circle-play"></i></a>
                         <span>Video de 1 min.</span>
                     </div>
                 </div>
@@ -220,7 +282,7 @@
                 <div class="tenth_section_grid_item_info">
                     <p>Formación Económica <br><span>ISAN</span></p>
                     <div class="tenth_section_grid_item_meta">
-                        <a href="../sp/instalaciones.php"><i class="fa-solid fa-circle-play"></i></a>
+                        <a href="#" onclick="openModal(event, 'modal4', 'video4')"><i class="fa-solid fa-circle-play"></i></a>
                         <span>Video de 1 min.</span>
                     </div>
                 </div>
@@ -229,13 +291,55 @@
                 <div class="tenth_section_grid_item_info">
                     <p>Contabilidad Financiera <br><span>ISAN</span></p>
                     <div class="tenth_section_grid_item_meta">
-                        <a href="../sp/instalaciones.php"><i class="fa-solid fa-circle-play"></i></a>
+                        <a href="#" onclick="openModal(event, 'modal4', 'video4')"><i class="fa-solid fa-circle-play"></i></a>
                         <span>Video de 1 min.</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+        <!-- Modals -->
+        <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1', 'video1')">&times;</span>
+            <video id="video1" width="640" height="360" controls>
+                <source src="../img_sp/derecho/tenth_section.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2', 'video2')">&times;</span>
+            <video id="video2" width="640" height="360" controls>
+                <source src="../img_sp/derecho/tenth_section_2.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3', 'video3')">&times;</span>
+            <video id="video3" width="640" height="360" controls>
+                <source src="../img_sp/derecho/tenth_section.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </div>
+    </div>
+
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal4', 'video4')">&times;</span>
+            <video id="video4" width="640" height="360" controls>
+                <source src="../img_sp/derecho/tenth_section_2.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </div>
+    </div>
 
 
     <section class="eleventh_section">
@@ -285,4 +389,45 @@
         </div>
     </section>
 </body>
+
+<script>
+    function openModal(event, modalId, videoId = null) {
+        if (event) event.preventDefault();
+        var modal = document.getElementById(modalId);
+        modal.style.display = 'block';
+        if (videoId) {
+            var video = document.getElementById(videoId);
+            video.play();
+        }
+    }
+
+    function closeModal(modalId, videoId = null) {
+        var modal = document.getElementById(modalId);
+        modal.style.display = 'none';
+        if (videoId) {
+            var video = document.getElementById(videoId);
+            video.pause();
+            video.currentTime = 0;
+        }
+    }
+
+    window.onclick = function(event) {
+        // Para modales con video
+        var videoModals = document.getElementsByClassName('modal');
+        for (var i = 0; i < videoModals.length; i++) {
+            if (event.target == videoModals[i]) {
+                var video = videoModals[i].getElementsByTagName('video')[0];
+                closeModal(videoModals[i].id, video.id);
+            }
+        }
+
+        // Para modales simples
+        var infoModals = document.getElementsByClassName('sixth_section_modal');
+        for (var j = 0; j < infoModals.length; j++) {
+            if (event.target == infoModals[j]) {
+                closeModal(infoModals[j].id);
+            }
+        }
+    };
+</script>
 </html>
