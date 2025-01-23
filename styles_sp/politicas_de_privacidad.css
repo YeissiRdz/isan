@@ -1,0 +1,176 @@
+body {
+    --h: 212deg;
+    --l: 43%;
+    --brandColor: hsl(var(--h), 71%, var(--l));
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.first_section_politicas{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    padding: 1rem;
+}
+
+.first_section_politicas_grid{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    gap: 1.5rem;
+}
+
+.first_section_politicas_grid_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.first_section_politicas_grid_text p{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    color: #003466;
+}
+
+.first_section_politicas_grid_text h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+    color: #003466;
+}
+
+.first_section_politicas_grid_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_section_politicas_grid_img img{
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+    border: 7px solid #ffcb36;
+    box-shadow: 8px 9px 10px rgba(0, 0, 0, 0.3);
+}
+
+.list-p {
+    margin: 0;
+    line-height: 1.6;
+    transition: transform 0.3s ease-in-out;
+    display: none; 
+}
+
+.container-nb {
+    list-style: none;
+    counter-reset: list;
+    padding: 0 1rem;
+    margin-top: 0;
+    margin-bottom: 20vh;
+}
+
+.list-li {
+    --stop: calc(100% / var(--length) * var(--i));
+    --l: 62%;
+    --l2: 88%;
+    --h: calc((var(--i) - 1) * (180 / var(--length)));
+    --c1: rgba(0, 52, 102, 1); 
+    --c2: rgba(255, 203, 54, 1); 
+    --c3: rgba(219, 18, 25, 1);
+
+    position: relative;
+    counter-increment: list;
+    max-width: 45rem;
+    margin: 2rem auto;
+    padding: 2rem 1rem 1rem;
+    box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.3);
+    border-radius: 0.25rem;
+    overflow: hidden;
+    background-color: white;
+    transform: translateY(20px);
+    opacity: 0;
+    animation: slideIn 0.6s ease-out forwards;
+    cursor: pointer;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.list-li:nth-child(odd) {
+    background-color: rgba(0, 52, 102, 0.1);
+}
+
+.list-li:nth-child(even) {
+    background-color: rgba(255, 203, 54, 0.1);
+}
+
+.list-li::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, var(--c1) var(--stop), var(--c2) var(--stop));
+    transition: background-color 0.3s ease-in-out;
+}
+
+.list-h {
+    display: flex;
+    align-items: baseline;
+    margin: 0 0 1rem;
+    color: rgb(70, 70, 70);
+    transition: color 0.3s ease;
+}
+
+.list-h:hover {
+    color: var(--c3); /* Rojo */
+}
+
+.list-h::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
+    margin-right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    content: counter(list);
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: var(--c1);
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.list-h:hover::before {
+    background-color: var(--c3); /* Rojo */
+}
+
+@media (min-width: 40em) {
+    li {
+        margin: 3rem auto;
+        padding: 3rem 2rem 2rem;
+    }
+
+    h3 {
+        font-size: 2.25rem;
+        margin: 0 0 2rem;
+    }
+
+    h3::before {
+        margin-right: 1.5rem;
+    }
+}
