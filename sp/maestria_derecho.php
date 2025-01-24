@@ -3,7 +3,8 @@
 <link rel="stylesheet" href="../styles_sp/maestria_derecho.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 <script src="sp.js"></script>
-
+<?php include_once("../rp/head.php") ?>
+<?php include_once("../rp/navbar.php") ?>
 <body>
 
     <section class="first_section_niveles_educativos">
@@ -406,4 +407,5 @@ function closeModal(modalId) {
 }
 
 </script>
+<?php include_once("../rp/footer.php") ?>
 </html>

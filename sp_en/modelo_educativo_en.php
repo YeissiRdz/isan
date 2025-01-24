@@ -5,7 +5,8 @@
 <link rel="stylesheet" href="../styles_sp/modelo_educativo.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 <script src="sp.js"></script>
-
+<?php include_once("../rp_en/head_en.php") ?>
+<?php include_once("../rp_en/navbar_en.php") ?>
 
 <body>
     <section class="first_section_niveles_educativos">
@@ -221,4 +222,5 @@
 
 
 </body>
+<?php include_once("../rp_en/footer_en.php") ?>
 </html>
