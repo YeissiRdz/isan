@@ -27,32 +27,32 @@
             <div class="sitemap-section">
                <h2 class="section-title">Academic Navigation</h2>
                <div class="sitemap-links">
-                  <a href="../en/educational_model.php" class="sitemap-link">Educational Model</a>
-                  <a href="../en/open_high_school.php" class="sitemap-link">Open High School</a>
-                  <a href="../en/" class="sitemap-link">Bachelor's Degree in Law</a>
-                  <a href="../en/primary.php" class="sitemap-link">Bachelor's Degree in Public Accounting</a>
-                  <a href="../en/master_law.php" class="sitemap-link">Master's Degree in Law</a>
-                  <a href="../en/master_accounting.php" class="sitemap-link">Master's Degree in Public Accounting</a>
+                  <a href="../sp_en/modelo_educativo_en.php" class="sitemap-link">Educational Model</a>
+                  <a href="../sp_en/preparatoria_abierta_en.php" class="sitemap-link">Open High School</a>
+                  <a href="../sp_en/derecho_en.php" class="sitemap-link">Bachelor's Degree in Law</a>
+                  <a href="../sp_en/contaduria_en.php" class="sitemap-link">Bachelor's Degree in Public Accounting</a>
+                  <a href="../sp_en/maestria_derecho_en.php" class="sitemap-link">Master's Degree in Law</a>
+                  <a href="../sp_en/maestria_contaduria_en.php" class="sitemap-link">Master's Degree in Public Accounting</a>
                </div>
             </div>
 
             <div class="sitemap-section">
                <h2 class="section-title">Internal Navigation</h2>
                <div class="sitemap-links">
-                  <a href="../en/facilities.php" class="sitemap-link">Facilities</a>
-                  <a href="../en/faculty.php" class="sitemap-link">Faculty</a>
-                  <a href="../en/scholarships_agreements.php" class="sitemap-link">Scholarships and Agreements</a>
+                  <a href="../sp_en/instalaciones_en.php" class="sitemap-link">Facilities</a>
+                  <a href="../sp_en/docentes_en.php" class="sitemap-link">Professors</a>
+                  <a href="../sp_en/becas_convenios_en.php" class="sitemap-link">Scholarships and Agreements</a>
                </div>
             </div>
 
             <div class="sitemap-section">
                <h2 class="section-title">Resources</h2>
                <div class="sitemap-links">
-                  <a href="../en/calendar.php" class="sitemap-link">Calendar</a>
-                  <a href="../en/schedule_appointment.php" class="sitemap-link">Schedule Appointment</a>
-                  <a href="../en/privacy_policies.php" class="sitemap-link">Privacy Policies</a>
-                  <a href="../en/sitemap.php" class="sitemap-link">Site Map</a>
-                  <a href="../en/noalbullying.php" class="sitemap-link">#NoToBullying</a>
+                  <a href="../sp_en/calendario_en.php" class="sitemap-link">Calendar</a>
+                  <a href="../sp_en/agenda_una_cita_en.php" class="sitemap-link">Schedule Appointment</a>
+                  <a href="../sp_en/politicas_de_privacidad_en.php" class="sitemap-link">Privacy Policies</a>
+                  <a href="../sp_en/sitemap_en.php" class="sitemap-link">Site Map</a>
+                  <a href="../sp_en/no_al_bullying_en.php" class="sitemap-link">#NoToBullying</a>
                </div>
             </div>
          </div>

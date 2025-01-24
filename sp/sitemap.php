@@ -29,8 +29,8 @@
                <div class="sitemap-links">
                   <a href="../sp/modelo_educativo.php" class="sitemap-link">Modelo educativo</a>
                   <a href="../sp/preparatoria_abierta.php" class="sitemap-link">Preparatoria Abierta</a>
-                  <a href="../sp/" class="sitemap-link">Licenciatura en Derecho</a>
-                  <a href="../sp/primaria.php" class="sitemap-link">Licenciatura en Contaduría Pública</a>
+                  <a href="../sp/derecho.php" class="sitemap-link">Licenciatura en Derecho</a>
+                  <a href="../sp/contaduria.php" class="sitemap-link">Licenciatura en Contaduría Pública</a>
                   <a href="../sp/maestria_derecho.php" class="sitemap-link">Maestría en Derecho</a>
                   <a href="../sp/maestria_contaduria.php" class="sitemap-link">Maestría en Contaduría Pública </a>
                </div>
@@ -52,9 +52,9 @@
 
                   <a href="../sp/calendario.php" class="sitemap-link">Calendario</a>
                   <a href="../sp/agenda_una_cita.php" class="sitemap-link">Agendar Cita</a>
-                  <a href="../sp/politicas_de_privacidad.php" class="sitemap-link">Políticas de Privacidad</a>
+                  <a href="../sp/politicas_de_priv|acidad.php" class="sitemap-link">Políticas de Privacidad</a>
                   <a href="../sp/sitemap.php" class="sitemap-link">Mapa del Sitio</a>
-                  <a href="../sp/noalbullying.php" class="sitemap-link">#NoAlBullying</a>
+                  <a href="../sp/no_al_bullying.php" class="sitemap-link">#NoAlBullying</a>
 
                </div>
             </div>
