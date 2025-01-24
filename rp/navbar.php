@@ -153,5 +153,5 @@
          const isExpanded = mobileMenu.classList.contains('show');
          menuButton.setAttribute('aria-expanded', isExpanded); // Accessibility
       });
-   } <
-   /script
+   }
+</script>

@@ -11,7 +11,6 @@
 <?php include_once("rp/navbar.php") ?>
 
 <body>
-
    <section id="section-1">
       <div class="content-slider">
          <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
