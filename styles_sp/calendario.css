@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/*General Styles*/
+
+body {
+   font-family: 'Lato', sans-serif;
+   background-color: #f4f4f4;
+   color: #003466;
+   margin: 0;
+   padding: 0;
+   /* Retained top margin */
+}
+
+.calendar-container {
+   max-width: 900px;
+   margin: 40px auto;
+   padding: 20px;
+   background-color: white;
+   border-radius: 8px;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+   overflow: hidden;
+}
+
+.calendar-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 10px;
+   margin-top: 4.5rem;
+
+}
+
+.calendar-title {
+   font-size: 2rem;
+   /* Default title size */
+}
+
+.calendar-controls {
+   display: flex;
+   gap: 10px;
+}
+
+.calendar-select,
+.calendar-button {
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   background-color: #003466;
+   color: white;
+   cursor: pointer;
+}
+
+.calendar-select:hover,
+.calendar-button:hover {
+   background-color: #DB1219;
+}
+
+.calendar-grid {
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   gap: 10px;
+}
+
+.calendar-day {
+   border: 1px solid #003466;
+   height: 80px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: background-color 0.3s;
+}
+
+.calendar-day:hover {
+   background-color: rgba(219, 18, 25, 0.1);
+}
+
+.event-marker {
+   position: absolute;
+   bottom: 5px;
+   left: 50%;
+   transform: translateX(-50%);
+   background-color: #DB1219;
+   border-radius: 50%;
+   width: 10px;
+   height: 10px;
+}
+
+.modal {
+   display: none;
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+   background-color: white;
+   margin: 15% auto;
+   padding: 20px;
+   border: 1px solid #003466;
+   max-width: 300px;
+}
+
+.close-modal {
+   cursor: pointer;
+}
+
+/* Responsive Media Queries */
+
+/* Extra Large Screens (xl): min-width - 1481px */
+@media (min-width: 1481px) {
+   .calendar-title {
+      font-size: 2.5rem;
+      /* Extra large title for extra large screens */
+   }
+
+   .calendar-day {
+      height: 100px;
+      /* Large height for extra large screens */
+   }
+
+   .calendar-grid {
+      grid-template-columns: repeat(7, 1fr);
+      /* Seven columns for extra large screens */
+   }
+
+   .calendar-button {
+      padding: 18px;
+      /* Larger button padding */
+      font-size: 1.4rem;
+      /* Larger button text */
+   }
+}
+
+/* Large Screens (lg): 1281px - 1480px */
+@media (min-width: 1281px) and (max-width: 1480px) {
+   .calendar-title {
+      font-size: 2.2rem;
+      /* Larger title for large screens */
+   }
+
+   .calendar-day {
+      height: 90px;
+      /* Slightly larger height for large screens */
+   }
+
+   .calendar-grid {
+      grid-template-columns: repeat(7, 1fr);
+      /* Seven columns for large screens */
+   }
+
+   .calendar-button {
+      padding: 16px;
+      /* Increased button padding */
+      font-size: 1.3rem;
+      /* Larger button text */
+   }
+}
+
+/* Medium Large Screens (md): 981px - 1280px */
+@media (min-width: 981px) and (max-width: 1280px) {
+   .calendar-title {
+      font-size: 2rem;
+      /* Standard title for medium large screens */
+   }
+
+   .calendar-day {
+      height: 80px;
+      /* Standard height for medium large screens */
+   }
+
+   .calendar-grid {
+      grid-template-columns: repeat(6, 1fr);
+      /* Six columns for medium large screens */
+   }
+
+   .calendar-button {
+      padding: 14px;
+      /* Standard button padding */
+      font-size: 1.2rem;
+      /* Standard button text */
+   }
+
+   .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+   }
+
+   .modal-content {
+      background-color: white;
+      margin: 30% auto;
+      padding: 30px;
+      border: 1px solid #003466;
+      max-width: 300px;
+   }
+
+   .close-modal {
+      cursor: pointer;
+   }
+}
+
+/* Tablet Devices: 681px - 980px */
+@media (min-width: 681px) and (max-width: 980px) {
+   .calendar-title {
+      font-size: 1.6rem;
+      /* Smaller title for tablets */
+   }
+
+   .calendar-day {
+      height: 70px;
+      /* Slightly larger height for tablets */
+   }
+
+   .calendar-grid {
+      grid-template-columns: repeat(5, 1fr);
+      /* Five columns for tablets */
+   }
+
+   .calendar-button {
+      padding: 12px;
+      /* Slightly larger button padding */
+      font-size: 1.1rem;
+      /* Slightly larger button text */
+   }
+
+   .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+   }
+
+   .modal-content {
+      background-color: white;
+      margin: 30% auto;
+      padding: 30px;
+      border: 1px solid #003466;
+      max-width: 300px;
+   }
+
+   .close-modal {
+      cursor: pointer;
+   }
+}
+
+/* Medium Mobile Devices (md): 481px - 680px */
+@media (min-width: 481px) and (max-width: 680px) {
+   .calendar-title {
+      font-size: 1.2rem;
+      margin-right: 10px;
+      /* Smaller title for medium devices */
+   }
+
+   .calendar-day {
+      height: 60px;
+      /* Further reduce height for medium devices */
+   }
+
+   .calendar-grid {
+      grid-template-columns: repeat(4, 1fr);
+      /* Four columns for medium devices */
+   }
+
+   .calendar-button {
+      padding: 7px;
+      /* Standard button padding for medium devices */
+      font-size: .7rem;
+      /* Standard button text */
+   }
+
+   .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+   }
+
+   .modal-content {
+      background-color: white;
+      margin: 30% auto;
+      padding: 30px;
+      border: 1px solid #003466;
+      max-width: 300px;
+
+   }
+
+   .close-modal {
+      cursor: pointer;
+   }
+}
+
+/* Small Mobile Devices (sm): 381px - 480px */
+@media (min-width: 381px) and (max-width: 480px) {
+   .calendar-title {
+      font-size: .8rem;
+      margin-right: 7px;
+      /* Smaller title for small devices */
+   }
+
+   .calendar-day {
+      height: 50px;
+      /* Slightly larger height for small devices */
+   }
+
+   .calendar-grid {
+      grid-template-columns: repeat(3, 1fr);
+      /* Three columns for small devices */
+   }
+
+   .calendar-button {
+      padding: 4px;
+      /* Adjust button padding */
+      font-size: 0.6rem;
+      /* Smaller button text */
+   }
+
+   .calendar-controls {
+      display: flex;
+      gap: 10px;
+   }
+
+   .calendar-select,
+   .calendar-button {
+      padding: 4px;
+      border: none;
+      border-radius: 4px;
+      background-color: #003466;
+      color: white;
+      cursor: pointer;
+   }
+
+   .calendar-select:hover,
+   .calendar-button:hover {
+      background-color: #DB1219;
+   }
+
+   .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+   }
+
+   .modal-content {
+      background-color: white;
+      margin: 30% auto;
+      padding: 30px;
+      border: 1px solid #003466;
+      max-width: 300px;
+
+   }
+
+   .close-modal {
+      cursor: pointer;
+   }
+}
+
+/* Extra Small Mobile Devices (xsm): max-width: 380px */
+@media (max-width: 380px) {
+   .calendar-title {
+      font-size: .5rem;
+      margin-right: 5px;
+      /* Smaller title for small devices */
+   }
+
+   .calendar-day {
+      height: 30px;
+      /* Slightly larger height for small devices */
+   }
+
+   .calendar-grid {
+      grid-template-columns: repeat(3, 1fr);
+      /* Three columns for small devices */
+   }
+
+   .calendar-button {
+      padding: 2px;
+      /* Adjust button padding */
+      font-size: 0.4rem;
+      /* Smaller button text */
+   }
+
+   .calendar-controls {
+      display: flex;
+      gap: 10px;
+   }
+
+   .calendar-select,
+   .calendar-button {
+      padding: 4px;
+      border: none;
+      border-radius: 4px;
+      background-color: #003466;
+      color: white;
+      cursor: pointer;
+      font-size: 0.4rem;
+   }
+
+   .calendar-select:hover,
+   .calendar-button:hover {
+      background-color: #DB1219;
+   }
+
+   .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+   }
+
+   .modal-content {
+      background-color: white;
+      margin: 30% auto;
+      padding: 30px;
+      border: 1px solid #003466;
+      max-width: 300px;
+
+   }
+
+   .close-modal {
+      cursor: pointer;
+   }
+}

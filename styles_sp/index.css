@@ -1,0 +1,2872 @@
+/* styles.css */
+
+
+/* General Variables */
+/* General Styles */
+body {
+   margin: 0 auto;
+   padding: 0;
+   font-size: 16px;
+   background: #fff;
+   width: 100%;
+   z-index: 0;
+}
+
+body section {
+   display: block;
+}
+
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body ul,
+body li {
+   margin: 0;
+   padding: 0;
+}
+
+body h1 {
+   font-family: 'Lato', sans-serif;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+body h2 .ind {
+   font-family: 'Lato', sans-serif;
+   font-size: 1.875em;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+body h3 {
+   font-family: 'Lato', sans-serif;
+   font-size: 1.5em;
+   font-weight: 400;
+}
+
+body h4 {
+   font-family: 'Lato', sans-serif;
+   font-size: 0.875em;
+   font-weight: 400;
+   text-transform: uppercase;
+}
+
+body p {
+   line-height: 150%;
+   font-family: 'Lato', sans-serif;
+   font-size: 0.9375em;
+   color: #999;
+}
+
+body li {
+   list-style-type: none;
+}
+
+body a {
+   text-decoration: none;
+}
+
+.bg-wrapper {
+   width: 100%;
+   height: 100%;
+   background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
+}
+
+.section-header {
+   padding-top: 5.625em;
+   text-align: center;
+}
+
+.section-header h3 {
+   margin-bottom: 0.5em;
+}
+
+.section-header .line-red {
+   margin: 2.5em auto 2.9375em auto;
+}
+
+.line-red {
+   display: block;
+   width: 4em;
+   height: 0.1875em;
+   margin: 0 auto;
+   background: #f38181;
+}
+
+/* Main Header Styles */
+.main-header {
+   position: absolute;
+   top: 0;
+   width: 100%;
+   z-index: 0;
+   font-family: 'Lato', sans-serif;
+   color: #fff;
+   background: transparent;
+}
+
+.main-header .header-wrapper {
+   display: block;
+   width: 70%;
+   margin: 0 auto;
+   padding-top: 1em;
+}
+
+.main-header .header-wrapper .main-logo {
+   float: left;
+   font-weight: 700;
+   font-size: 1.875em;
+}
+
+.main-header .header-wrapper .main-menu {
+   float: right;
+   text-align: center;
+}
+
+.main-header .header-wrapper .main-menu li {
+   display: inline-block;
+   padding: 0.75em 1.875em;
+}
+
+.main-header .header-wrapper .main-menu li a {
+   padding-bottom: 0.75em;
+   text-transform: uppercase;
+   color: #fff;
+   font-size: 0.875em;
+}
+
+.main-header .header-wrapper .main-menu li a:hover {
+   color: #fce38a;
+   border-bottom: 0.1875em solid #fce38a;
+   transition: 0.1s;
+}
+
+.main-header .header-wrapper .main-menu li a span {
+   font-size: 1.2em;
+}
+
+.main-header .header-wrapper .main-menu li:last-child {
+   padding: 0.75em 0;
+}
+
+.main-header .header-wrapper .main-menu li:nth-child(6) a:hover,
+.main-header .header-wrapper .main-menu li:last-child a:hover {
+   border: none;
+}
+
+/* Section-1 Styles */
+#section-1 {
+   height: 100vh;
+   color: #fff;
+   background-color: #222;
+}
+
+#section-1 .content-slider {
+   position: relative;
+   width: 100%;
+   height: 100%;
+}
+
+#section-1 .content-slider input {
+   display: none;
+}
+
+#section-1 .content-slider .slider {
+   position: relative;
+   width: inherit;
+   height: inherit;
+   overflow: hidden;
+}
+
+#section-1 .content-slider .slider .banner {
+   position: absolute;
+   top: 0;
+   left: 0;
+   opacity: 0;
+   z-index: 0;
+   width: inherit;
+   height: inherit;
+   text-align: center;
+   background-repeat: no-repeat;
+   background-position: 50% 50%;
+   transition: all 0.5s ease;
+}
+
+#section-1 .content-slider .slider .banner .banner-inner-wrapper {
+   height: 100%;
+   padding-top: 6em;
+   background-image: linear-gradient(rgba(0, 52, 102, 0.9), rgba(219, 18, 25, 0.9));
+   box-sizing: border-box;
+}
+
+#section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
+   padding-bottom: 0.3em;
+   font-family: "Lato";
+   font-weight: 400;
+   font-size: 2.5em;
+   text-transform: none;
+}
+
+#section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {
+   font-size: 6em;
+   line-height: 95%;
+}
+
+#section-1 .content-slider .slider .banner .banner-inner-wrapper .line {
+   display: block;
+   width: 4em;
+   height: 0.1875em;
+   margin: 2.5em auto;
+   background: #fff;
+}
+
+#section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button {
+   padding-bottom: 5em;
+   z-index: 15;
+}
+
+.btn-more-container {
+   display: flex;
+   /* Makes buttons appear in a single line */
+   gap: 10px;
+   justify-content: center;
+   /* Adds space between buttons */
+}
+
+#section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a {
+   padding: 0.5em 0.5em;
+   text-align: center;
+   font-family: "Lato", sans-serif;
+   font-size: 0.9em;
+   color: #fff;
+   text-transform: uppercase;
+   border: 0.1875em solid #fff;
+}
+
+#section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a:hover {
+   color: #003466;
+   border-color: #003466;
+   transition: 0.3s;
+}
+
+#section-1 .content-slider .slider #top-banner-1 {
+   background: url("../img_sp/index/carr1.jpg") no-repeat center center;
+   background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-2 {
+   background: url("../img_sp/index/carr2.jpeg") no-repeat center center;
+   background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-3 {
+   background: url("../img_sp/index/carr3.jpg") no-repeat center center;
+   background-size: cover;
+}
+
+#section-1 .content-slider .slider #top-banner-4 {
+   background: url("../img_sp/index/carr4.jpg") no-repeat center center;
+   background-size: cover;
+}
+
+#section-1 .content-slider nav {
+   position: absolute;
+   bottom: 0.5em;
+   width: 100%;
+   z-index: 10;
+   text-align: center;
+}
+
+#section-1 .content-slider nav .controls {
+   display: block;
+   width: 70%;
+   margin: 0 auto;
+   font-family: Montserrat, sans-serif;
+   color: #fff;
+}
+
+#section-1 .content-slider nav .controls label {
+   position: relative;
+   display: inline-block;
+   width: 20%;
+   height: 3.1em;
+   overflow: hidden;
+   margin: 0 1em;
+   padding-top: 1em;
+   text-align: left;
+   text-transform: uppercase;
+   font-family: Montserrat, sans-serif;
+   font-size: 1em;
+   color: #f6eac5;
+   font-weight: 400;
+   cursor: pointer;
+   transition: all 0.3s;
+}
+
+#section-1 .content-slider nav .controls label .progressbar {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 3px;
+   width: 100%;
+   background: #f6eac5;
+   z-index: 12;
+}
+
+#section-1 .content-slider nav .controls label .progressbar .progressbar-fill {
+   position: inherit;
+   width: inherit;
+   height: inherit;
+   margin-left: -100%;
+   background: #003466;
+}
+
+#section-1 .content-slider nav .controls label span {
+   font-size: 1.4em;
+   font-weight: 700;
+}
+
+#section-1 .content-slider nav .controls label:hover {
+   color: #003466;
+}
+
+#section-1 .content-slider #banner1:checked~.slider #top-banner-1,
+#section-1 .content-slider #banner2:checked~.slider #top-banner-2,
+#section-1 .content-slider #banner3:checked~.slider #top-banner-3,
+#section-1 .content-slider #banner4:checked~.slider #top-banner-4 {
+   opacity: 1;
+   z-index: 1;
+}
+
+#section-1 .content-slider #banner1:checked~nav label:nth-of-type(1),
+#section-1 .content-slider #banner2:checked~nav label:nth-of-type(2),
+#section-1 .content-slider #banner3:checked~nav label:nth-of-type(3),
+#section-1 .content-slider #banner4:checked~nav label:nth-of-type(4) {
+   cursor: default;
+   color: #fff;
+   transition: all 0.5s;
+}
+
+#section-1 .content-slider #banner1:checked~nav label:nth-of-type(1) .progressbar,
+#section-1 .content-slider #banner2:checked~nav label:nth-of-type(2) .progressbar,
+#section-1 .content-slider #banner3:checked~nav label:nth-of-type(3) .progressbar,
+#section-1 .content-slider #banner4:checked~nav label:nth-of-type(4) .progressbar {
+   background: #fff;
+}
+
+#section-1 .content-slider #banner1:checked~nav label:nth-of-type(1) .progressbar-fill,
+#section-1 .content-slider #banner2:checked~nav label:nth-of-type(2) .progressbar-fill,
+#section-1 .content-slider #banner3:checked~nav label:nth-of-type(3) .progressbar-fill,
+#section-1 .content-slider #banner4:checked~nav label:nth-of-type(4) .progressbar-fill {
+   animation: progressBarFill 5s linear;
+}
+
+.seventh_section_second_div_img {
+   position: relative;
+   width: 100%;
+   height: auto;
+   /* Optional: Set a specific height if needed */
+   display: flex;
+   /* Use flexbox for centering */
+   justify-content: center;
+   /* Center horizontally */
+   align-items: center;
+   /* Center vertically if desired */
+}
+
+.img_index_n {
+   width: 100%;
+   /* Fixed width */
+   height: auto;
+   /* Maintain aspect ratio */
+   object-fit: cover;
+   /* Ensures the image covers the container */
+   object-position: center;
+   /* Centers the image within its container */
+}
+
+
+/*Second Element*/
+
+
+.fourth_section {
+   width: 90%;
+   max-width: 100%;
+   height: auto;
+   margin: 2rem auto;
+   padding: 2rem;
+   font-family: 'Lato', sans-serif;
+   margin-top: 3rem;
+}
+
+.fourth_section_grid {
+   display: grid;
+   grid-template-columns: 45% 55%;
+}
+
+.fourth_section_grid_img {
+   display: flex;
+   justify-content: left;
+   align-items: center;
+}
+
+.fourth_section_grid_img img {
+   width: 90%;
+   height: auto;
+   border-radius: 12px;
+}
+
+
+.fourth_section_grid_info h2 {
+   color: #003366;
+   font-size: 35px;
+   font-weight: bolder;
+   margin-top: 0;
+   margin-bottom: 1.5rem;
+   line-height: 1.2;
+}
+
+.fourth_section_grid_info_wrap {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 1.5rem;
+   width: 100%;
+   height: 70%;
+   margin: auto;
+}
+
+.fourth_section_grid_info_box {
+   width: 45%;
+   height: 45%;
+   background-color: rgba(219, 18, 25, 1);
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   box-shadow: 0 4px 6px rgba(0, 52, 102, 1);
+   text-align: center;
+   padding: 0.5rem;
+}
+
+.fourth_section_grid_info_box img {
+   max-width: 50%;
+   max-height: 50%;
+   margin-bottom: 0.5rem;
+   object-fit: contain;
+   margin-right: 0.5rem;
+   fill: white;
+}
+
+.fourth_section_grid_info_box p {
+   font-size: 18px;
+   font-weight: 700;
+   color: white;
+   margin: 0;
+}
+
+
+.fifth_section {
+   width: 90%;
+   max-width: 100%;
+   height: auto;
+   margin: 2rem auto;
+   padding: 1rem;
+}
+
+.fifth_section_grid {
+   display: grid;
+   grid-template-columns: 70% 30%;
+}
+
+.fifth_section_img {
+   position: relative;
+   background-image: url(../img_sp/index/carr1.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 300px;
+   overflow: hidden;
+}
+
+.fifth_section_gradient {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(to right, #0f3050, #2b608c);
+   opacity: 0.8;
+   z-index: 1;
+}
+
+.fifth_section_content {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 2;
+   color: white;
+   padding: 3rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
+}
+
+.fifth_section_content_1 {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+}
+
+.fifth_section_content_1 h2 {
+   color: white;
+   font-size: 25px;
+   font-weight: 600;
+   margin-top: 0;
+   margin-bottom: 0.5rem;
+   font-family: "Lato";
+}
+
+.fifth_section_content_1 p {
+   color: #fff;
+   font-size: 15px;
+   font-weight: 400;
+   margin-top: 0;
+   margin-bottom: 1rem;
+   line-height: 130%;
+   font-family: "Lato";
+}
+
+.fifth_section_content_1 ul,
+a {
+   font-size: 16px;
+   color: #fff;
+   line-height: 130%;
+   padding-left: 2rem;
+   margin: 0;
+   font-family: "Lato";
+}
+
+.fifth_section_content_1 ul,
+a:hover {
+   font-size: 12px;
+   color: #db1219;
+   margin: 0;
+   font-family: "Lato";
+}
+
+
+.fifth_section_content_2 {
+   display: flex;
+   justify-content: right;
+   align-items: end;
+}
+
+.fifth_section_content button {
+   margin-top: 1rem;
+   padding: 0.5rem 1rem;
+   background-color: #003466;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.fifth_section_content button:hover {
+   background-color: #003466;
+}
+
+
+.fifth_section_info {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+   background-color: #EBF0F6;
+   padding: 1rem;
+   overflow: hidden;
+}
+
+.fifth_section_info h2 {
+   color: #1c3d5c;
+   font-size: 20px;
+   font-weight: 600;
+   margin-top: 0;
+   margin-bottom: 1rem;
+   font-family: "Lato";
+}
+
+
+.fifth_section_info p {
+   font-size: 15px;
+   color: #505254;
+   font-weight: 400;
+   margin-top: 0;
+   margin-bottom: 0.5rem;
+   line-height: 130%;
+   font-family: "Lato";
+}
+
+.fifth_section_info a {
+   text-decoration: none;
+   font-size: 16px;
+   color: #2b608c;
+   font-weight: 400;
+   line-height: 130%;
+   font-family: "Lato";
+}
+
+
+
+.seventh_section {
+   width: 90%;
+   max-width: 100%;
+   height: auto;
+   margin: 2rem auto;
+   padding: 2rem;
+}
+
+.seventh_section_grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 2rem;
+}
+
+.seventh_section_grid_div {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: auto;
+   border-radius: 8px;
+   overflow: hidden;
+}
+
+#seventh_section_grid_div_id1 {
+   justify-content: center;
+   align-items: center;
+}
+
+.seventh_section_second_div {
+   box-shadow: 6px 9px 10px rgb(0, 0, 0, 0.5);
+   justify-content: flex-start;
+}
+
+
+.seventh_section_grid_div h2 {
+   font-size: 36px;
+   font-weight: 700;
+   color: #0f3050;
+   font-family: "Lato";
+   margin-bottom: 30px;
+}
+
+.seventh_section_grid_div p {
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 130%;
+   padding: 0.5rem;
+   color: #505254;
+}
+
+.seventh_section_second_div h3 {
+   font-size: 24px;
+   color: #0f3050;
+   font-weight: 600;
+   padding: 1rem;
+   margin-top: 0;
+   margin-bottom: 0;
+   text-align: left;
+   font-family: "Lato";
+}
+
+.seventh_section_second_div p {
+   font-size: 16px;
+   line-height: 130%;
+   font-weight: 400;
+   margin-top: 0;
+   padding: 1rem;
+}
+
+.seventh_section_second_div_button {
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+   margin-top: auto;
+}
+
+.seventh_section_second_div a {
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 16px;
+   font-weight: 400;
+   width: 180px;
+   height: 40px;
+   background-color: #F5891D;
+   color: #0f3050;
+   border-radius: 8px;
+}
+
+
+
+/* Animations */
+@keyframes progressBarFill {
+   from {
+      margin-left: -100%;
+   }
+
+   to {
+      margin-left: 0;
+   }
+}
+
+
+/*Desktop Media Queries*/
+
+/* Desktop screens (xxxl) (min-width: 1481px) */
+
+@media only screen and (min-width: 1481px) {
+   body {
+      font-size: 18px;
+   }
+
+   .main-header .header-wrapper {
+      width: 65%;
+   }
+
+   #section-1 {
+      height: 100vh;
+   }
+
+
+   .main-header .header-wrapper .main-menu li {
+      padding: 0.75em 1.4em;
+   }
+
+   #section-1 {
+      height: 100vh;
+   }
+
+   #section-1 .content-slider nav {
+      bottom: -0.2em;
+   }
+
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+      padding-top: 12em;
+   }
+
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper .line {
+      margin: 2em auto;
+   }
+
+   .seventh_section_second_div_img {
+      position: relative;
+      width: 100%;
+      height: auto;
+      /* Optional: Set a specific height if needed */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+   }
+
+   .img_index_n {
+      width: 425px;
+      height: auto;
+      object-fit: cover;
+      object-position: center;
+
+   }
+
+}
+
+/* Desktop screens (xxl) (1480px - 1281px) */
+
+@media (max-width: 1480px) and (min-width: 1281px) {
+   body {
+      font-size: 14px;
+   }
+
+   .main-header .header-wrapper .main-menu li {
+      padding: 1em 1.3em;
+   }
+
+   /* Section-1 Styles */
+   #section-1 {
+      height: 100vh;
+      color: #fff;
+      background-color: #222;
+   }
+
+   #section-1 .content-slider nav {
+      bottom: 0;
+   }
+
+   #section-1 .content-slider nav .controls {
+      width: 80%;
+   }
+
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+      padding-top: 12em;
+   }
+
+   .seventh_section_second_div_img {
+      position: relative;
+      width: 100%;
+      height: auto;
+      /* Optional: Set a specific height if needed */
+      display: flex;
+      /* Use flexbox for centering */
+      justify-content: center;
+      /* Center horizontally */
+      align-items: center;
+      /* Center vertically if desired */
+   }
+
+   .img_index_n {
+      width: 370px;
+      /* Fixed width */
+      height: auto;
+      /* Maintain aspect ratio */
+      object-fit: cover;
+      /* Ensures the image covers the container */
+      object-position: center;
+      /* Centers the image within its container */
+   }
+
+   .fourth_section {
+      width: 90%;
+      max-width: 100%;
+      height: auto;
+      margin: 4rem auto;
+      padding: 2rem;
+      font-family: 'Lato', sans-serif;
+      margin-top: 8rem;
+      margin-top: 3rem;
+   }
+}
+
+/* Desktop screens (xl) (1280px - 981px) */
+
+
+@media (max-width: 1280px) and (min-width: 981px) {
+   .main-header .header-wrapper .main-menu li {
+      padding: 0.75em 0.9em;
+   }
+
+   #section-1 {
+      height: 100vh;
+   }
+
+   #section-1 .content-slider nav {
+      bottom: 1em;
+   }
+
+   #section-1 .content-slider nav .controls {
+      width: 90%;
+   }
+
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
+      font-size: 2.3rem;
+   }
+
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {
+      font-size: 4.5em;
+   }
+
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+      padding-top: 12em;
+   }
+
+
+
+   .fourth_section {
+      width: 90%;
+      max-width: 100%;
+      height: auto;
+      margin: 1.5rem auto;
+      padding: 1.5rem;
+   }
+
+   .fourth_section_grid {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+   .fourth_section_grid_img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1rem;
+   }
+
+   .fourth_section_grid_img img {
+      width: 90%;
+      height: auto;
+      border-radius: 12px;
+   }
+
+   .fourth_section_grid_info h2 {
+      color: #003466;
+      font-size: 30px;
+      font-weight: 700;
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+      text-align: center;
+   }
+
+   .fourth_section_grid_info_wrap {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      width: 100%;
+      height: auto;
+      margin: auto;
+   }
+
+   .fourth_section_grid_info_box {
+      width: 45%;
+      height: auto;
+      background-color: #db1219;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 51, 102, 0.9);
+      text-align: center;
+      padding: 0.5rem;
+   }
+
+   .fourth_section_grid_info_box img {
+      width: 40%;
+      height: 40%;
+      margin-bottom: 0.5rem;
+      object-fit: contain;
+      margin-right: 0.5rem;
+   }
+
+   .fourth_section_grid_info_box p {
+      font-size: 16px;
+      font-weight: 700;
+      color: #29282a;
+      margin: 0;
+   }
+
+
+   .seventh_section {
+      width: 90%;
+      max-width: 100%;
+      height: auto;
+      margin: 1.5rem auto;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: center;
+      /* Center the content horizontally */
+      align-items: center;
+      /* Center the content vertically */
+      flex-direction: column;
+      /* Stack the children vertically */
+   }
+
+   .seventh_section_grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      /* Ensure it is a single column */
+      gap: 1.5rem;
+      grid-auto-rows: 1fr;
+      width: 100%;
+      /* Ensure the grid stretches the full width of the container */
+      justify-items: center;
+      /* Center the items horizontally within the grid */
+   }
+
+   .seventh_section_grid_div {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      height: 100%;
+      border-radius: 8px;
+      overflow: hidden;
+      justify-content: center;
+      /* Vertically center the content */
+      align-items: center;
+      /* Horizontally center the content */
+   }
+
+   #seventh_section_grid_div_id1 {
+      justify-content: center;
+      align-items: center;
+      box-shadow: 6px 9px 10px rgba(0, 0, 0, 0.5);
+   }
+
+   .seventh_section_second_div {
+      box-shadow: 6px 9px 10px rgba(0, 0, 0, 0.5);
+      justify-content: flex-start;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* Center horizontally */
+   }
+
+   .seventh_section_second_div_img {
+      position: relative;
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      /* Horizontally center the image */
+      align-items: center;
+      /* Vertically center the image */
+   }
+
+   .seventh_section_second_div_img IMG {
+      width: 100%;
+      object-fit: cover;
+      /* Ensure image covers the container */
+      object-position: center;
+      /* Keep the image centered */
+   }
+
+   .seventh_section_grid_div h2 {
+      font-size: 38px;
+      font-weight: 700;
+      color: #0f3050;
+      padding: 1rem;
+   }
+
+   .seventh_section_grid_div p {
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 130%;
+      padding: 1.5rem;
+   }
+
+   .seventh_section_second_div h3 {
+      font-size: 22px;
+      color: #2b608c;
+      font-weight: 600;
+      padding: 1rem;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-align: left;
+   }
+
+   .seventh_section_second_div p {
+      font-size: 14px;
+      line-height: 130%;
+      font-weight: 400;
+      margin-top: 0;
+      padding: 1rem;
+   }
+
+   .seventh_section_second_div_button {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin-top: auto;
+   }
+
+   .seventh_section_second_div a {
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 400;
+      width: 160px;
+      height: 35px;
+      background-color: #F5891D;
+      color: #0f3050;
+      border-radius: 8px;
+   }
+
+   .img_index_n {
+      width: 100%;
+      /* Fixed width */
+      height: auto;
+      /* Maintain aspect ratio */
+      object-fit: cover;
+      /* Ensures the image covers the container */
+      object-position: center;
+      /* Centers the image within its container */
+   }
+
+   .fourth_section_grid_info h2 {
+      color: #003366;
+      font-size: 28px;
+      font-weight: bolder;
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+      text-align: center;
+   }
+}
+
+/*Tablet Media Queries*/
+
+
+
+
+
+/* Tablet Devices (lg) (980px - 681px) */
+
+@media (max-width: 980px) and (min-width: 681px) {
+   .main-header .header-wrapper .main-menu li {
+      padding: 0.75em 0.9em;
+   }
+
+   #section-1 {
+      height: 100vh;
+   }
+
+   #section-1 .content-slider nav {
+      bottom: 1em;
+   }
+
+   #section-1 .content-slider nav .controls {
+      width: 90%;
+   }
+
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
+      font-size: 2.3rem;
+   }
+
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {
+      font-size: 4.5em;
+   }
+
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+      padding-top: 12em;
+   }
+
+
+   .fourth_section {
+      width: 90%;
+      max-width: 100%;
+      height: auto;
+      margin: 1.5rem auto;
+      padding: 1.5rem;
+   }
+
+   .fourth_section_grid {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+   .fourth_section_grid_img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1rem;
+   }
+
+   .fourth_section_grid_img img {
+      width: 90%;
+      height: auto;
+      border-radius: 12px;
+   }
+
+   .seventh_section_grid_div h2 {
+      font-size: 40px;
+      font-weight: 700;
+      color: #0f3050;
+      padding: 1rem;
+   }
+
+   .seventh_section_grid_div p {
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 130%;
+      padding: 1.5rem;
+   }
+
+   .fourth_section_grid_info_wrap {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      width: 100%;
+      height: auto;
+      margin: auto;
+   }
+
+   .fourth_section_grid_info_box {
+      width: 45%;
+      height: auto;
+      background-color: #db1219;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 51, 102, 0.9);
+      text-align: center;
+      padding: 0.5rem;
+   }
+
+   .fourth_section_grid_info_box img {
+      max-width: 40%;
+      max-height: 40%;
+      margin-bottom: 0.5rem;
+      object-fit: contain;
+      margin-right: 0.5rem;
+   }
+
+   .fourth_section_grid_info_box p {
+      font-size: 16px;
+      font-weight: 700;
+      color: #29282a;
+      margin: 0;
+   }
+
+
+   .seventh_section {
+      width: 90%;
+      max-width: 100%;
+      height: auto;
+      margin: 1.5rem auto;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: center;
+      /* Center the content horizontally */
+      align-items: center;
+      /* Center the content vertically */
+      flex-direction: column;
+      /* Stack the children vertically */
+   }
+
+   .seventh_section_grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      /* Ensure it is a single column */
+      gap: 1.5rem;
+      grid-auto-rows: 1fr;
+      width: 100%;
+      /* Ensure the grid stretches the full width of the container */
+      justify-items: center;
+      /* Center the items horizontally within the grid */
+   }
+
+   .seventh_section_grid_div {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      height: 70%;
+      border-radius: 8px;
+      overflow: hidden;
+      justify-content: center;
+      /* Vertically center the content */
+      align-items: center;
+      /* Horizontally center the content */
+   }
+
+   #seventh_section_grid_div_id1 {
+      justify-content: center;
+      align-items: center;
+      box-shadow: 6px 9px 10px rgba(0, 0, 0, 0.5);
+   }
+
+   .seventh_section_second_div {
+      box-shadow: 6px 9px 10px rgba(0, 0, 0, 0.5);
+      justify-content: flex-start;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* Center horizontally */
+   }
+
+   .seventh_section_second_div_img {
+      position: relative;
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      /* Horizontally center the image */
+      align-items: center;
+      /* Vertically center the image */
+   }
+
+   .seventh_section_second_div_img IMG {
+      width: 100%;
+      /* Ensure image covers the container */
+      object-position: center;
+      /* Keep the image centered */
+      height: auto;
+   }
+
+   .seventh_section_grid_div h2 {
+      font-size: 30px;
+      font-weight: 700;
+      color: #0f3050;
+   }
+
+   .seventh_section_grid_div p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 130%;
+      padding: 0.5rem;
+   }
+
+   .seventh_section_second_div h3 {
+      font-size: 22px;
+      color: #2b608c;
+      font-weight: 600;
+      padding: 1rem;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-align: left;
+   }
+
+   .seventh_section_second_div p {
+      font-size: 14px;
+      line-height: 130%;
+      font-weight: 400;
+      margin-top: 0;
+      padding: 1rem;
+   }
+
+   .seventh_section_second_div_button {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin-top: auto;
+   }
+
+   .seventh_section_second_div a {
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 400;
+      width: 160px;
+      height: 35px;
+      background-color: #F5891D;
+      color: #0f3050;
+      border-radius: 8px;
+   }
+
+   .img_index_n {
+      width: 100%;
+      /* Fixed width */
+      height: auto;
+      /* Maintain aspect ratio */
+      object-fit: cover;
+      /* Ensures the image covers the container */
+      object-position: center;
+      /* Centers the image within its container */
+   }
+
+   #section-1 .content-slider nav .controls label {
+      position: relative;
+      display: inline-block;
+      width: 30%;
+      height: 3.1em;
+      overflow: hidden;
+      margin: 0 1em;
+      padding-top: 1em;
+      text-align: left;
+      text-transform: uppercase;
+      font-family: Montserrat, sans-serif;
+      font-size: 1em;
+      color: #f6eac5;
+      font-weight: 400;
+      cursor: pointer;
+      transition: all 0.3s;
+   }
+
+   #section-1 .content-slider nav .controls label .progressbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 3px;
+      width: 100%;
+      background: #f6eac5;
+      z-index: 20;
+   }
+
+   #section-1 .content-slider nav .controls label .progressbar .progressbar-fill {
+      position: inherit;
+      width: inherit;
+      height: inherit;
+      margin-left: -100%;
+      background: #003466;
+   }
+
+   #section-1 .content-slider nav .controls label span {
+      font-size: 1.4em;
+      font-weight: 700;
+   }
+
+   .fourth_section_grid_info h2 {
+      color: #003366;
+      font-size: 20px;
+      font-weight: bolder;
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+      text-align: center;
+   }
+
+}
+
+
+
+
+
+
+
+/* Mobile Devices (md) (680px - 481px) */
+
+
+@media (max-width: 680px) and (min-width: 481px) {
+   .main-header .header-wrapper .main-menu li {
+      padding: 0.75em 0.9em;
+   }
+
+   #section-1 {
+      height: 100vh;
+   }
+
+   #section-1 .content-slider nav {
+      bottom: 1em;
+   }
+
+   #section-1 .content-slider nav .controls {
+      width: 90%;
+   }
+
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
+      font-size: 2.3rem;
+   }
+
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {
+      font-size: 3.5em;
+   }
+
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+      padding-top: 12em;
+   }
+
+
+   .fourth_section {
+      width: 90%;
+      max-width: 100%;
+      height: auto;
+      margin: 1.5rem auto;
+      padding: 1.5rem;
+   }
+
+   .fourth_section_grid {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+   .fourth_section_grid_img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1rem;
+   }
+
+   .fourth_section_grid_img img {
+      width: 90%;
+      height: auto;
+      border-radius: 12px;
+   }
+
+   .seventh_section_grid_div h2 {
+      font-size: 40px;
+      font-weight: 700;
+      color: #0f3050;
+      padding: 1rem;
+   }
+
+   .seventh_section_grid_div p {
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 130%;
+      padding: 1.5rem;
+   }
+
+   .fourth_section_grid_info_wrap {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      width: 100%;
+      height: auto;
+      margin: auto;
+   }
+
+   .fourth_section_grid_info_box {
+      width: 90%;
+      height: auto;
+      background-color: #db1219;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 51, 102, 0.9);
+      text-align: center;
+      padding: 0.5rem;
+   }
+
+   .fourth_section_grid_info_box img {
+      max-width: 40%;
+      max-height: 40%;
+      margin-bottom: 0.5rem;
+      object-fit: contain;
+      margin-right: 0.5rem;
+   }
+
+   .fourth_section_grid_info_box p {
+      font-size: 16px;
+      font-weight: 700;
+      color: #29282a;
+      margin: 0;
+   }
+
+
+   .seventh_section {
+      width: 90%;
+      max-width: 100%;
+      height: auto;
+      margin: 1.5rem auto;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: center;
+      /* Center the content horizontally */
+      align-items: center;
+      /* Center the content vertically */
+      flex-direction: column;
+      /* Stack the children vertically */
+   }
+
+   .seventh_section_grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      /* Ensure it is a single column */
+      gap: 1.5rem;
+      grid-auto-rows: 1fr;
+      width: 100%;
+      /* Ensure the grid stretches the full width of the container */
+      justify-items: center;
+      /* Center the items horizontally within the grid */
+   }
+
+   .seventh_section_grid_div {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      height: 70%;
+      border-radius: 8px;
+      overflow: hidden;
+      justify-content: center;
+      /* Vertically center the content */
+      align-items: center;
+      /* Horizontally center the content */
+   }
+
+   #seventh_section_grid_div_id1 {
+      justify-content: center;
+      align-items: center;
+      box-shadow: 6px 9px 10px rgba(0, 0, 0, 0.5);
+   }
+
+   .seventh_section_second_div {
+      box-shadow: 6px 9px 10px rgba(0, 0, 0, 0.5);
+      justify-content: flex-start;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* Center horizontally */
+   }
+
+   .seventh_section_second_div_img {
+      position: relative;
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      /* Horizontally center the image */
+      align-items: center;
+      /* Vertically center the image */
+   }
+
+   .seventh_section_second_div_img IMG {
+      width: 100%;
+      /* Ensure image covers the container */
+      object-position: center;
+      /* Keep the image centered */
+      height: auto;
+   }
+
+   .seventh_section_grid_div h2 {
+      font-size: 30px;
+      font-weight: 700;
+      color: #0f3050;
+   }
+
+   .seventh_section_grid_div p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 130%;
+      padding: 0.5rem;
+   }
+
+   .seventh_section_second_div h3 {
+      font-size: 22px;
+      color: #2b608c;
+      font-weight: 600;
+      padding: 1rem;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-align: left;
+   }
+
+   .seventh_section_second_div p {
+      font-size: 14px;
+      line-height: 130%;
+      font-weight: 400;
+      margin-top: 0;
+      padding: 1rem;
+   }
+
+   .seventh_section_second_div_button {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin-top: auto;
+   }
+
+   .seventh_section_second_div a {
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 400;
+      width: 160px;
+      height: 35px;
+      background-color: #F5891D;
+      color: #0f3050;
+      border-radius: 8px;
+   }
+
+   .img_index_n {
+      width: 100%;
+      /* Fixed width */
+      height: auto;
+      /* Maintain aspect ratio */
+      object-fit: cover;
+      /* Ensures the image covers the container */
+      object-position: center;
+      /* Centers the image within its container */
+   }
+
+   #section-1 .content-slider nav .controls label .progressbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 3px;
+      width: 100%;
+      background: #f6eac5;
+      z-index: 20;
+   }
+
+   #section-1 .content-slider nav .controls label .progressbar .progressbar-fill {
+      position: inherit;
+      width: inherit;
+      height: inherit;
+      margin-left: -100%;
+      background: #003466;
+   }
+
+   #section-1 .content-slider nav .controls label span {
+      font-size: 1.4em;
+      font-weight: 700;
+   }
+
+   .fourth_section_grid_info h2 {
+      color: #003366;
+      font-size: 18px;
+      font-weight: bolder;
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+      text-align: center;
+   }
+
+   #section-1 .content-slider nav .controls label {
+      position: relative;
+      display: inline-block;
+      width: 40%;
+      height: 3.1em;
+      overflow: hidden;
+      margin: 0 1em;
+      padding-top: 1em;
+      text-align: left;
+      text-transform: uppercase;
+      font-family: Montserrat, sans-serif;
+      font-size: .8em;
+      color: #f6eac5;
+      font-weight: 400;
+      cursor: pointer;
+      transition: all 0.3s;
+   }
+
+
+}
+
+/* Mobile Devices (sm) (480px - 381px) */
+
+
+@media (max-width: 480px) and (min-width: 381px) {
+
+   /* Reset padding and margin */
+   .main-header .header-wrapper .main-menu li {
+      padding: 0.75em 0.9em;
+      margin: 0;
+      list-style: none;
+      /* Ensure there are no list-style or any extra space from the left */
+   }
+
+   /* Ensure no overflow in #section-1 */
+   #section-1 {
+      height: 100vh;
+      width: 100%;
+      /* Ensure it takes up the full width */
+      overflow-x: hidden;
+      /* Prevent horizontal overflow */
+   }
+
+   /* Ensure that the content-slider stays within the bounds */
+   #section-1 .content-slider {
+      width: 100%;
+      /* Ensure it takes full width */
+      position: relative;
+   }
+
+   /* Center the navigation and controls */
+   #section-1 .content-slider nav {
+      position: absolute;
+      bottom: 1em;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+
+   /* Ensure controls take up full width */
+   #section-1 .content-slider nav .controls {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+
+   /* Reset any unwanted margin on heading */
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
+      font-size: 1.3rem;
+      margin: 0;
+      /* Reset margin */
+   }
+
+   /* Adjust font size of h1 */
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {
+      font-size: 3em;
+      margin: 0;
+      /* Reset margin */
+   }
+
+   /* Make sure banner wrapper is fully constrained */
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+      padding-top: 12em;
+      width: 100%;
+      /* Ensure it takes up the full width of the container */
+      text-align: center;
+      /* Center the text horizontally */
+   }
+
+
+
+   .fourth_section {
+      width: 90%;
+      max-width: 100%;
+      height: auto;
+      margin: 1.5rem auto;
+      padding: 1.5rem;
+   }
+
+   .fourth_section_grid {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+   .fourth_section_grid_img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1rem;
+   }
+
+   .fourth_section_grid_img img {
+      width: 90%;
+      height: auto;
+      border-radius: 12px;
+   }
+
+   .seventh_section_grid_div h2 {
+      font-size: 40px;
+      font-weight: 700;
+      color: #0f3050;
+      padding: 1rem;
+   }
+
+   .seventh_section_grid_div p {
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 130%;
+      padding: 1.5rem;
+   }
+
+   .fourth_section_grid_info_wrap {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      width: 100%;
+      height: auto;
+      margin: auto;
+   }
+
+   .fourth_section_grid_info_box {
+      width: 90%;
+      height: auto;
+      background-color: #db1219;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 51, 102, 0.9);
+      text-align: center;
+      padding: 0.5rem;
+   }
+
+   .fourth_section_grid_info_box img {
+      max-width: 40%;
+      max-height: 40%;
+      margin-bottom: 0.5rem;
+      object-fit: contain;
+      margin-right: 0.5rem;
+   }
+
+   .fourth_section_grid_info_box p {
+      font-size: 16px;
+      font-weight: 700;
+      color: #29282a;
+      margin: 0;
+   }
+
+
+   .seventh_section {
+      width: 90%;
+      max-width: 100%;
+      height: auto;
+      margin: 1.5rem auto;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: center;
+      /* Center the content horizontally */
+      align-items: center;
+      /* Center the content vertically */
+      flex-direction: column;
+      /* Stack the children vertically */
+   }
+
+   .seventh_section_grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      /* Ensure it is a single column */
+      gap: 1.5rem;
+      grid-auto-rows: 1fr;
+      width: 100%;
+      /* Ensure the grid stretches the full width of the container */
+      justify-items: center;
+      /* Center the items horizontally within the grid */
+   }
+
+   .seventh_section_grid_div {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      height: 70%;
+      border-radius: 8px;
+      overflow: hidden;
+      justify-content: center;
+      /* Vertically center the content */
+      align-items: center;
+      /* Horizontally center the content */
+   }
+
+   #seventh_section_grid_div_id1 {
+      justify-content: center;
+      align-items: center;
+      box-shadow: 6px 9px 10px rgba(0, 0, 0, 0.5);
+   }
+
+   .seventh_section_second_div {
+      box-shadow: 6px 9px 10px rgba(0, 0, 0, 0.5);
+      justify-content: flex-start;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* Center horizontally */
+   }
+
+   .seventh_section_second_div_img {
+      position: relative;
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      /* Horizontally center the image */
+      align-items: center;
+      /* Vertically center the image */
+   }
+
+   .seventh_section_second_div_img IMG {
+      width: 100%;
+      /* Ensure image covers the container */
+      object-position: center;
+      /* Keep the image centered */
+      height: auto;
+   }
+
+   .seventh_section_grid_div h2 {
+      font-size: 30px;
+      font-weight: 700;
+      color: #0f3050;
+   }
+
+   .seventh_section_grid_div p {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 130%;
+      padding: 0.5rem;
+   }
+
+   .seventh_section_second_div h3 {
+      font-size: 22px;
+      color: #2b608c;
+      font-weight: 600;
+      padding: 1rem;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-align: left;
+   }
+
+   .seventh_section_second_div p {
+      font-size: 14px;
+      line-height: 130%;
+      font-weight: 400;
+      margin-top: 0;
+      padding: 1rem;
+   }
+
+   .seventh_section_second_div_button {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin-top: auto;
+   }
+
+   .seventh_section_second_div a {
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 400;
+      width: 160px;
+      height: 35px;
+      background-color: #F5891D;
+      color: #0f3050;
+      border-radius: 8px;
+   }
+
+   .img_index_n {
+      width: 100%;
+      /* Fixed width */
+      height: auto;
+      /* Maintain aspect ratio */
+      object-fit: cover;
+      /* Ensures the image covers the container */
+      object-position: center;
+      /* Centers the image within its container */
+   }
+
+   #section-1 .content-slider nav .controls label {
+      position: relative;
+      display: inline-block;
+      width: 40%;
+      height: 3.1em;
+      overflow: hidden;
+      margin: 0 1em;
+      padding-top: 1em;
+      text-align: left;
+      text-transform: uppercase;
+      font-family: Montserrat, sans-serif;
+      font-size: .6em;
+      color: #f6eac5;
+      font-weight: 400;
+      cursor: pointer;
+      transition: all 0.3s;
+   }
+
+   #section-1 .content-slider nav .controls label .progressbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 3px;
+      width: 100%;
+      background: #f6eac5;
+      z-index: 20;
+   }
+
+   #section-1 .content-slider nav .controls label .progressbar .progressbar-fill {
+      position: inherit;
+      width: inherit;
+      height: inherit;
+      margin-left: -100%;
+      background: #003466;
+   }
+
+   #section-1 .content-slider nav .controls label span {
+      font-size: 1.4em;
+      font-weight: 700;
+   }
+
+   .fourth_section_grid_info h2 {
+      color: #003366;
+      font-size: 18px;
+      font-weight: bolder;
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+      text-align: center;
+   }
+}
+
+
+
+/* Mobile Devices (xsm) (380px) */
+
+
+@media (max-width: 380px) {
+
+   /* Reset padding and margin */
+   .main-header .header-wrapper .main-menu li {
+      padding: 0.75em 0.9em;
+      margin: 0;
+      list-style: none;
+      /* Ensure there are no list-style or any extra space from the left */
+   }
+
+   /* Ensure no overflow in #section-1 */
+   #section-1 {
+      height: 100vh;
+      width: 100%;
+      /* Ensure it takes up the full width */
+      overflow-x: hidden;
+      /* Prevent horizontal overflow */
+   }
+
+   /* Ensure that the content-slider stays within the bounds */
+   #section-1 .content-slider {
+      width: 100%;
+      /* Ensure it takes full width */
+      position: relative;
+   }
+
+   /* Center the navigation and controls */
+   #section-1 .content-slider nav {
+      position: absolute;
+      bottom: 1em;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+
+   /* Ensure controls take up full width */
+   #section-1 .content-slider nav .controls {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+
+   /* Reset any unwanted margin on heading */
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
+      font-size: 1.3rem;
+      margin: 0;
+      /* Reset margin */
+   }
+
+   /* Adjust font size of h1 */
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {
+      font-size: 3em;
+      margin: 0;
+      /* Reset margin */
+   }
+
+   /* Make sure banner wrapper is fully constrained */
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+      padding-top: 12em;
+      width: 100%;
+      /* Ensure it takes up the full width of the container */
+      text-align: center;
+      /* Center the text horizontally */
+   }
+
+
+
+   .fourth_section {
+      width: 90%;
+      max-width: 100%;
+      height: auto;
+      margin: 1.5rem auto;
+      padding: 1.5rem;
+   }
+
+   .fourth_section_grid {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+   .fourth_section_grid_img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1rem;
+   }
+
+   .fourth_section_grid_img img {
+      width: 90%;
+      height: auto;
+      border-radius: 12px;
+   }
+
+   .seventh_section_grid_div h2 {
+      font-size: 40px;
+      font-weight: 700;
+      color: #0f3050;
+      padding: 1rem;
+   }
+
+   .seventh_section_grid_div p {
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 130%;
+      padding: 1.5rem;
+   }
+
+   .fourth_section_grid_info_wrap {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      width: 100%;
+      height: auto;
+      margin: auto;
+   }
+
+   .fourth_section_grid_info_box {
+      width: 90%;
+      height: auto;
+      background-color: #db1219;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 51, 102, 0.9);
+      text-align: center;
+      padding: 0.5rem;
+   }
+
+   .fourth_section_grid_info_box img {
+      max-width: 40%;
+      max-height: 40%;
+      margin-bottom: 0.5rem;
+      object-fit: contain;
+      margin-right: 0.5rem;
+   }
+
+   .fourth_section_grid_info_box p {
+      font-size: 16px;
+      font-weight: 700;
+      color: #29282a;
+      margin: 0;
+   }
+
+
+   .seventh_section {
+      width: 90%;
+      max-width: 100%;
+      height: auto;
+      margin: 1.5rem auto;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: center;
+      /* Center the content horizontally */
+      align-items: center;
+      /* Center the content vertically */
+      flex-direction: column;
+      /* Stack the children vertically */
+   }
+
+   .seventh_section_grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      /* Ensure it is a single column */
+      gap: 1.5rem;
+      grid-auto-rows: 1fr;
+      width: 100%;
+      /* Ensure the grid stretches the full width of the container */
+      justify-items: center;
+      /* Center the items horizontally within the grid */
+   }
+
+   .seventh_section_grid_div {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      height: 70%;
+      border-radius: 8px;
+      overflow: hidden;
+      justify-content: center;
+      /* Vertically center the content */
+      align-items: center;
+      /* Horizontally center the content */
+   }
+
+   #seventh_section_grid_div_id1 {
+      justify-content: center;
+      align-items: center;
+      box-shadow: 6px 9px 10px rgba(0, 0, 0, 0.5);
+   }
+
+   .seventh_section_second_div {
+      box-shadow: 6px 9px 10px rgba(0, 0, 0, 0.5);
+      justify-content: flex-start;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* Center horizontally */
+   }
+
+   .seventh_section_second_div_img {
+      position: relative;
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      /* Horizontally center the image */
+      align-items: center;
+      /* Vertically center the image */
+   }
+
+   .seventh_section_second_div_img IMG {
+      width: 100%;
+      /* Ensure image covers the container */
+      object-position: center;
+      /* Keep the image centered */
+      height: auto;
+   }
+
+   .seventh_section_grid_div h2 {
+      font-size: 30px;
+      font-weight: 700;
+      color: #0f3050;
+   }
+
+   .seventh_section_grid_div p {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 130%;
+      padding: 0.5rem;
+   }
+
+   .seventh_section_second_div h3 {
+      font-size: 22px;
+      color: #2b608c;
+      font-weight: 600;
+      padding: 1rem;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-align: left;
+   }
+
+   .seventh_section_second_div p {
+      font-size: 14px;
+      line-height: 130%;
+      font-weight: 400;
+      margin-top: 0;
+      padding: 1rem;
+   }
+
+   .seventh_section_second_div_button {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin-top: auto;
+   }
+
+   .seventh_section_second_div a {
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 400;
+      width: 160px;
+      height: 35px;
+      background-color: #F5891D;
+      color: #0f3050;
+      border-radius: 8px;
+   }
+
+   .img_index_n {
+      width: 100%;
+      /* Fixed width */
+      height: auto;
+      /* Maintain aspect ratio */
+      object-fit: cover;
+      /* Ensures the image covers the container */
+      object-position: center;
+      /* Centers the image within its container */
+   }
+
+   #section-1 .content-slider nav .controls label {
+      position: relative;
+      display: inline-block;
+      width: 40%;
+      height: 3.1em;
+      overflow: hidden;
+      margin: 0 1em;
+      padding-top: 1em;
+      text-align: left;
+      text-transform: uppercase;
+      font-family: Montserrat, sans-serif;
+      font-size: .8em;
+      color: #f6eac5;
+      font-weight: 400;
+      cursor: pointer;
+      transition: all 0.3s;
+   }
+
+   #section-1 .content-slider nav .controls label .progressbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 3px;
+      width: 100%;
+      background: #f6eac5;
+      z-index: 20;
+   }
+
+   #section-1 .content-slider nav .controls label .progressbar .progressbar-fill {
+      position: inherit;
+      width: inherit;
+      height: inherit;
+      margin-left: -100%;
+      background: #003466;
+   }
+
+   #section-1 .content-slider nav .controls label span {
+      font-size: 1.4em;
+      font-weight: 700;
+   }
+
+   .fourth_section_grid_info h2 {
+      color: #003366;
+      font-size: 18px;
+      font-weight: bolder;
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+      text-align: center;
+   }
+
+   .fifth_section_info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      background-color: #EBF0F6;
+      padding: 1rem;
+      overflow: hidden;
+   }
+
+   .fifth_section_info h2 {
+      color: #1c3d5c;
+      font-size: 16px;
+      font-weight: 600;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      font-family: "Lato";
+   }
+
+
+   .fifth_section_info p {
+      font-size: 12px;
+      color: #505254;
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      line-height: 130%;
+      font-family: "Lato";
+   }
+
+   .fifth_section_info a {
+      text-decoration: none;
+      font-size: 13px;
+      color: #2b608c;
+      font-weight: 400;
+      line-height: 130%;
+      font-family: "Lato";
+   }
+
+}
+
+
+
+/* Mobile Devices (xsm) (354px) */
+
+
+@media (max-width: 354px) {
+
+   /* Reset padding and margin */
+   .main-header .header-wrapper .main-menu li {
+      padding: 0.75em 0.9em;
+      margin: 0;
+      list-style: none;
+      /* Ensure there are no list-style or any extra space from the left */
+   }
+
+   /* Ensure no overflow in #section-1 */
+   #section-1 {
+      height: 100vh;
+      width: 100%;
+      /* Ensure it takes up the full width */
+      overflow-x: hidden;
+      /* Prevent horizontal overflow */
+   }
+
+   /* Ensure that the content-slider stays within the bounds */
+   #section-1 .content-slider {
+      width: 100%;
+      /* Ensure it takes full width */
+      position: relative;
+   }
+
+   /* Center the navigation and controls */
+   #section-1 .content-slider nav {
+      position: absolute;
+      bottom: 1em;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+
+   /* Ensure controls take up full width */
+   #section-1 .content-slider nav .controls {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+
+   /* Reset any unwanted margin on heading */
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
+      font-size: 1.3rem;
+      margin: 0;
+      /* Reset margin */
+   }
+
+   /* Adjust font size of h1 */
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {
+      font-size: 2.3em;
+      margin: 0;
+      /* Reset margin */
+   }
+
+   /* Make sure banner wrapper is fully constrained */
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+      padding-top: 12em;
+      width: 100%;
+      /* Ensure it takes up the full width of the container */
+      text-align: center;
+      /* Center the text horizontally */
+   }
+
+
+
+   .fourth_section {
+      width: 90%;
+      max-width: 100%;
+      height: auto;
+      margin: 1.5rem auto;
+      padding: 1.5rem;
+   }
+
+   .fourth_section_grid {
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+
+   .fourth_section_grid_img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 1rem;
+   }
+
+   .fourth_section_grid_img img {
+      width: 90%;
+      height: auto;
+      border-radius: 12px;
+   }
+
+   .seventh_section_grid_div h2 {
+      font-size: 40px;
+      font-weight: 700;
+      color: #0f3050;
+      padding: 1rem;
+   }
+
+   .seventh_section_grid_div p {
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 130%;
+      padding: 1.5rem;
+   }
+
+   .fourth_section_grid_info_wrap {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      width: 100%;
+      height: auto;
+      margin: auto;
+   }
+
+   .fourth_section_grid_info_box {
+      width: 90%;
+      height: auto;
+      background-color: #db1219;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 51, 102, 0.9);
+      text-align: center;
+      padding: 0.5rem;
+   }
+
+   .fourth_section_grid_info_box img {
+      max-width: 40%;
+      max-height: 40%;
+      margin-bottom: 0.5rem;
+      object-fit: contain;
+      margin-right: 0.5rem;
+   }
+
+   .fourth_section_grid_info_box p {
+      font-size: 16px;
+      font-weight: 700;
+      color: #29282a;
+      margin: 0;
+   }
+
+
+   .seventh_section {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      margin: 1rem auto;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: center;
+      /* Center the content horizontally */
+      align-items: center;
+      /* Center the content vertically */
+      flex-direction: column;
+      /* Stack the children vertically */
+   }
+
+   .seventh_section_grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      /* Ensure it is a single column */
+      gap: 1.5rem;
+      grid-auto-rows: 1fr;
+      width: 100%;
+      /* Ensure the grid stretches the full width of the container */
+      justify-items: center;
+      /* Center the items horizontally within the grid */
+   }
+
+   .seventh_section_grid_div {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      height: 70%;
+      border-radius: 8px;
+      overflow: hidden;
+      justify-content: center;
+      /* Vertically center the content */
+      align-items: center;
+      /* Horizontally center the content */
+   }
+
+   #seventh_section_grid_div_id1 {
+      justify-content: center;
+      align-items: center;
+      box-shadow: 6px 9px 10px rgba(0, 0, 0, 0.5);
+   }
+
+   .seventh_section_second_div {
+      box-shadow: 6px 9px 10px rgba(0, 0, 0, 0.5);
+      justify-content: flex-start;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* Center horizontally */
+   }
+
+   .seventh_section_second_div_img {
+      position: relative;
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      /* Horizontally center the image */
+      align-items: center;
+      /* Vertically center the image */
+   }
+
+   .seventh_section_second_div_img IMG {
+      width: 100%;
+      /* Ensure image covers the container */
+      object-position: center;
+      /* Keep the image centered */
+      height: auto;
+   }
+
+   .seventh_section_grid_div h2 {
+      font-size: 30px;
+      font-weight: 700;
+      color: #0f3050;
+   }
+
+   .seventh_section_grid_div p {
+      font-size: 11px;
+      font-weight: 400;
+      line-height: 130%;
+      padding: 0.5rem;
+   }
+
+   .seventh_section_second_div h3 {
+      font-size: 22px;
+      color: #2b608c;
+      font-weight: 600;
+      padding: 1rem;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-align: left;
+   }
+
+   .seventh_section_second_div p {
+      font-size: 14px;
+      line-height: 130%;
+      font-weight: 400;
+      margin-top: 0;
+      padding: 1rem;
+   }
+
+   .seventh_section_second_div_button {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin-top: auto;
+   }
+
+   .seventh_section_second_div a {
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      font-weight: 400;
+      width: 160px;
+      height: 35px;
+      background-color: #F5891D;
+      color: #0f3050;
+      border-radius: 8px;
+   }
+
+   .img_index_n {
+      width: 100%;
+      /* Fixed width */
+      height: auto;
+      /* Maintain aspect ratio */
+      object-fit: cover;
+      /* Ensures the image covers the container */
+      object-position: center;
+      /* Centers the image within its container */
+   }
+
+   #section-1 .content-slider nav .controls label {
+      position: relative;
+      display: inline-block;
+      width: 40%;
+      height: 3.1em;
+      overflow: hidden;
+      margin: 0 1em;
+      padding-top: 1em;
+      text-align: left;
+      text-transform: uppercase;
+      font-family: Montserrat, sans-serif;
+      font-size: .7em;
+      color: #f6eac5;
+      font-weight: 400;
+      cursor: pointer;
+      transition: all 0.3s;
+   }
+
+   #section-1 .content-slider nav .controls label .progressbar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 3px;
+      width: 100%;
+      background: #f6eac5;
+      z-index: 20;
+   }
+
+   #section-1 .content-slider nav .controls label .progressbar .progressbar-fill {
+      position: inherit;
+      width: inherit;
+      height: inherit;
+      margin-left: -100%;
+      background: #003466;
+   }
+
+   #section-1 .content-slider nav .controls label span {
+      font-size: 1.4em;
+      font-weight: 700;
+   }
+
+   .fourth_section_grid_info h2 {
+      color: #003366;
+      font-size: 18px;
+      font-weight: bolder;
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+      text-align: center;
+   }
+
+   .fifth_section_info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      background-color: #EBF0F6;
+      padding: 1rem;
+      overflow: hidden;
+   }
+
+   .fifth_section_info h2 {
+      color: #1c3d5c;
+      font-size: 13px;
+      font-weight: 600;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      font-family: "Lato";
+   }
+
+
+   .fifth_section_info p {
+      font-size: 10px;
+      color: #505254;
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      line-height: 130%;
+      font-family: "Lato";
+   }
+
+   .fifth_section_info a {
+      text-decoration: none;
+      font-size: 10px;
+      color: #2b608c;
+      font-weight: 400;
+      line-height: 130%;
+      font-family: "Lato";
+   }
+
+   #section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a {
+      padding: 0.5em 0.5em;
+      text-align: center;
+      font-family: "Lato", sans-serif;
+      font-size: 0.7em;
+      color: #fff;
+      text-transform: uppercase;
+      border: 0.1875em solid #fff;
+   }
+
+}
+
+body {
+   z-index: 0;
+}

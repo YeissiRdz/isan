@@ -6,6 +6,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 <script src="sp.js"></script>
 
+<?php include_once("../rp/head.php") ?>
+
+<?php include_once("../rp/navbar.php") ?>
+
 
 <body>
     <section class="first_section_niveles_educativos">
@@ -30,32 +34,32 @@
 
 
 
-<section class="third_section">
-    <h2 class="third_section_title">ISAN</h2>
-    <div class="third_section_grid">
+    <section class="third_section">
+        <h2 class="third_section_title">ISAN</h2>
+        <div class="third_section_grid">
 
-        <div class="third_section_grid_escudo">
-            <img src="../img_sp/modelo_educativo/logo_isan.png" alt="Logo ISAN">
-        </div>
+            <div class="third_section_grid_escudo">
+                <img src="../img_sp/modelo_educativo/logo_isan.png" alt="Logo ISAN">
+            </div>
 
-        <div class="third_section_grid_video">
-            <h2>Contamos con Validez Oficial</h2>
-            <div class="third_section_grid_video_imgs">
-                <video controls poster="../img_sp/modelo_educativo/third_section_video_poster.png" class="third_section_grid_himno_video">
-                    <source src="../img_sp/modelo_educativo/third_section_video.mp4" type="video/mp4">
-                    Tu navegador no soporta la reproducción de video. Por favor, actualiza tu navegador.
-                </video>
+            <div class="third_section_grid_video">
+                <h2>Contamos con Validez Oficial</h2>
+                <div class="third_section_grid_video_imgs">
+                    <video controls poster="../img_sp/modelo_educativo/third_section_video_poster.png" class="third_section_grid_himno_video">
+                        <source src="../img_sp/modelo_educativo/third_section_video.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video. Por favor, actualiza tu navegador.
+                    </video>
+                </div>
+            </div>
+
+            <div class="third_section_servicios">
+                <h2>Conoce lo que ofrece ISAN para TI</h2>
+                <a href="javascript:void(0)">Preparatoria Abierta</a>
+                <a href="javascript:void(0)">Licenciaturas</a>
+                <a href="javascript:void(0)">Maestrías</a>
             </div>
         </div>
-
-        <div class="third_section_servicios">
-            <h2>Conoce lo que ofrece ISAN para TI</h2>
-            <a href="javascript:void(0)">Preparatoria Abierta</a>
-            <a href="javascript:void(0)">Licenciaturas</a>
-            <a href="javascript:void(0)">Maestrías</a>
-        </div>
-    </div>
-</section>
+    </section>
 
 
 
@@ -73,11 +77,11 @@
                 <h3>Modelo Escolarizado</h3>
                 <div class="fifth_section_grid_first_info">
                     <ul class="fifth_section_grid_first_info_ul">
-                        <li>  Interacción constante con docentes.</li>
-                        <li>  Acceso inmediato a recursos académicos.</li>
-                        <li>  Asistencia diaria, refuerza disciplina.</li>
-                        <li>  Aprendizaje estructurado y continuo.</li>
-                        <li>  Ideal para ritmo académico regular.</li>
+                        <li> Interacción constante con docentes.</li>
+                        <li> Acceso inmediato a recursos académicos.</li>
+                        <li> Asistencia diaria, refuerza disciplina.</li>
+                        <li> Aprendizaje estructurado y continuo.</li>
+                        <li> Ideal para ritmo académico regular.</li>
                     </ul>
                 </div>
             </div>
@@ -86,11 +90,11 @@
                 <h3>Modelo Mixta Sabatina</h3>
                 <div class="fifth_section_grid_first_info">
                     <ul class="fifth_section_grid_first_info_ul">
-                        <li>  Clases sabatinas, ideal para quienes trabajan.</li>
-                        <li>  Combina presencialidad y autonomía.</li>
-                        <li>  Flexibilidad en el tiempo de estudio.</li>
-                        <li>  Enfoque práctico en sesiones presenciales.</li>
-                        <li>  Adaptado a necesidades personales.</li>
+                        <li> Clases sabatinas, ideal para quienes trabajan.</li>
+                        <li> Combina presencialidad y autonomía.</li>
+                        <li> Flexibilidad en el tiempo de estudio.</li>
+                        <li> Enfoque práctico en sesiones presenciales.</li>
+                        <li> Adaptado a necesidades personales.</li>
 
                     </ul>
                 </div>
@@ -100,12 +104,12 @@
                 <h3>Otros Modelos</h3>
                 <div class="fifth_section_grid_first_info">
                     <ul class="fifth_section_grid_first_info_ul">
-                        <li>  Métodos poco dinámicos.</li>
-                        <li>  Poca estructura.</li>
-                        <li>  Riesgo de información incorrecta.</li>
-                        <li>  Sin evaluación constante.</li>
-                        <li>  Falta de supervisión directa.</li>
-                        <li>  Dependencia de memorización.</li>
+                        <li> Métodos poco dinámicos.</li>
+                        <li> Poca estructura.</li>
+                        <li> Riesgo de información incorrecta.</li>
+                        <li> Sin evaluación constante.</li>
+                        <li> Falta de supervisión directa.</li>
+                        <li> Dependencia de memorización.</li>
 
                     </ul>
                 </div>
@@ -221,4 +225,7 @@
 
 
 </body>
+
+<?php include_once("../rp/footer.php") ?>
+
 </html>

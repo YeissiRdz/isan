@@ -1,0 +1,4 @@
+name: isan
+recipe: laravel
+config:
+  webroot: .
