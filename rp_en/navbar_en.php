@@ -88,7 +88,7 @@
             </li>
 
             <li>
-               <a href="../sp_en/preparatoria_En.php">High School</a>
+               <a href="../sp_en/preparatoria_en.php">High School</a>
             </li>
 
             <li class="has-dropdown">

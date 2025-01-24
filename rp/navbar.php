@@ -88,7 +88,7 @@
             </li>
 
             <li>
-               <a href="../sp/preparatoria.php">Preparatoria</a>
+               <a href="../sp/preparatoria_abierta.php">Preparatoria</a>
             </li>
 
             <li class="has-dropdown">
@@ -153,5 +153,5 @@
          const isExpanded = mobileMenu.classList.contains('show');
          menuButton.setAttribute('aria-expanded', isExpanded); // Accessibility
       });
-   }
-</script
+   } <
+   /script
