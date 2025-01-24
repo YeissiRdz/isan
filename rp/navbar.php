@@ -36,10 +36,10 @@
             <div class="dropdown">
                <a href="javascript:void(0)" class="dropdown-toggle">Educación Superior</a>
                <div class="dropdown-menu">
-                  <a href="../sp/.php">Liceniatura en Derecho</a>
-                  <a href="../sp/.php">Licenciatura en Contaduría Pública</a>
-                  <a href="../sp/.php">Maestría en Derecho</a>
-                  <a href="../sp/.php">Maestría en Contaduría Pública</a>
+                  <a href="../sp/derecho.php">Liceniatura en Derecho</a>
+                  <a href="../sp/contaduria.php">Licenciatura en Contaduría Pública</a>
+                  <a href="../sp/maestria_derecho.php">Maestría en Derecho</a>
+                  <a href="../sp/maestria_contaduria.php">Maestría en Contaduría Pública</a>
                </div>
             </div>
 
@@ -94,10 +94,10 @@
             <li class="has-dropdown">
                <a href="javascript:void(0)" class="dropdown-toggle">Educación Superior</a>
                <ul class="dropdown">
-                  <a class="dph" href="../sp/.php">Liceniatura en Derecho</a>
-                  <a class="dph" href="../sp/.php">Licenciatura en Contaduría Pública</a>
-                  <a class="dph" href="../sp/.php">Maestría en Derecho</a>
-                  <a class="dph" href="../sp/.php">Maestría en Contaduría Pública</a>
+                  <a class="dph" href="../sp/derecho.php">Liceniatura en Derecho</a>
+                  <a class="dph" href="../sp/contaduria.php">Licenciatura en Contaduría Pública</a>
+                  <a class="dph" href="../sp/maestria_derecho.php">Maestría en Derecho</a>
+                  <a class="dph" href="../sp/maestria_contaduria.php">Maestría en Contaduría Pública</a>
                </ul>
             </li>
             <li class="has-dropdown">
@@ -154,4 +154,4 @@
          menuButton.setAttribute('aria-expanded', isExpanded); // Accessibility
       });
    }
-</script>
+</script
