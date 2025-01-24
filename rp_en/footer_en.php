@@ -65,7 +65,7 @@
       <div class="footer-links">
          <a class="an-button" href="../sp_en/politicas_de_privacidad_en.php">Privacy Policies</a>
          <a class="an-button" href="../sp_en/sitemap_en.php">Site Map</a>
-         <a class="an-button" href="../sp_En/noalbullying_en.php">#NoToBullying</a>
+         <a class="an-button" href="../sp_en/no_al_bullying_en.php">#NoToBullying</a>
       </div>
    </div>
    <div class="footer-bottom-secondary">
