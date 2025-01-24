@@ -55,7 +55,7 @@
          </div>
          <p class="card-desc">Nuestros profesores están altamente capacitados para ofrecer clases de calidad, contribuyendo al desarrollo académico y profesional de los estudiantes.</p>
       </div>
-      <a href="../sp/actividades_extraescolares.php" class="cta-btn">Conoce a nuestros docentes</a>
+      <a href="../sp/becas_convenios.php" class="cta-btn">Conoce a nuestros docentes</a>
    </div>
    <div class="card">
       <div class="card-header">
@@ -66,7 +66,7 @@
          </div>
          <p class="card-desc">Nuestros docentes guían a los estudiantes en el desarrollo de proyectos científicos y tecnológicos, usando los recursos más avanzados para el aprendizaje.</p>
       </div>
-      <a href="../sp/actividades_extraescolares.php" class="cta-btn">Conoce a nuestros docentes</a>
+      <a href="../sp/becas_convenios.php" class="cta-btn">Conoce a nuestros docentes</a>
    </div>
    <div class="card">
       <div class="card-header">
@@ -77,7 +77,7 @@
          </div>
          <p class="card-desc">Nuestros docentes promueven el deporte y el bienestar a través de clases y actividades físicas en espacios diseñados para fomentar un estilo de vida saludable.</p>
       </div>
-      <a href="../sp/actividades_extraescolares.php" class="cta-btn">Conoce a nuestros docentes</a>
+      <a href="../sp/becas_convenios.php" class="cta-btn">Conoce a nuestros docentes</a>
    </div>
    <div class="card">
       <div class="card-header">
@@ -88,7 +88,7 @@
          </div>
          <p class="card-desc">Nuestros docentes utilizan la biblioteca digital para proporcionar acceso a una vasta gama de recursos académicos, apoyando el aprendizaje autónomo y la investigación.</p>
       </div>
-      <a href="../sp/actividades_extraescolares.php" class="cta-btn">Conoce a nuestros docentes</a>
+      <a href="../sp/becas_convenios.php" class="cta-btn">Conoce a nuestros docentes</a>
    </div>
 </div>
 

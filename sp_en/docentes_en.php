@@ -7,8 +7,8 @@
 <link rel="stylesheet" href="../styles_sp/instalaciones.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 
-<?php include_once("../rp/head.php") ?>
-<?php include_once("../rp/navbar.php") ?>
+<?php include_once("../rp_en/head_en.php") ?>
+<?php include_once("../rp_en/navbar_en.php") ?>
 
 <main>
    <ul class='slider'>
@@ -55,7 +55,7 @@
          </div>
          <p class="card-desc">Our professors are highly trained to offer quality lessons, contributing to the academic and professional development of students.</p>
       </div>
-      <a href="../sp/actividades_extraescolares.php" class="cta-btn">Meet our faculty</a>
+      <a href="../sp_en/becas_convenios_en.php" class="cta-btn">Meet our faculty</a>
    </div>
    <div class="card">
       <div class="card-header">
@@ -66,7 +66,7 @@
          </div>
          <p class="card-desc">Our faculty guides students in developing scientific and technological projects, using the most advanced resources for learning.</p>
       </div>
-      <a href="../sp/actividades_extraescolares.php" class="cta-btn">Meet our faculty</a>
+      <a href="../sp_en/becas_convenios_en.php" class="cta-btn">Meet our faculty</a>
    </div>
    <div class="card">
       <div class="card-header">
@@ -77,7 +77,7 @@
          </div>
          <p class="card-desc">Our faculty promotes a healthy lifestyle through classes and physical activities in spaces designed to foster well-being and sports.</p>
       </div>
-      <a href="../sp/actividades_extraescolares.php" class="cta-btn">Meet our faculty</a>
+      <a href="../sp_en/becas_convenios_en.php" class="cta-btn">Meet our faculty</a>
    </div>
    <div class="card">
       <div class="card-header">
@@ -88,11 +88,11 @@
          </div>
          <p class="card-desc">Our faculty uses the digital library to provide access to a vast range of academic resources, supporting autonomous learning and research.</p>
       </div>
-      <a href="../sp/actividades_extraescolares.php" class="cta-btn">Meet our faculty</a>
+      <a href="../sp_en/becas_convenios_en.php" class="cta-btn">Meet our faculty</a>
    </div>
 </div>
 
-<?php include_once("../rp/footer.php") ?>
+<?php include_once("../rp_en/footer_en.php") ?>
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

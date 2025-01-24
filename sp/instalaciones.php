@@ -55,7 +55,7 @@
          </div>
          <p class="card-desc">Nuestras modernas instalaciones ofrecen un entorno educativo de excelencia, con espacios diseñados para fomentar la innovación, el desarrollo profesional y el crecimiento personal.</p>
       </div>
-      <a href="../sp/actividades_extraescolares.php" class="cta-btn">Explora nuestras áreas</a>
+      <a href="../sp/modelo_educativo.php" class="cta-btn">Explora nuestras áreas</a>
    </div>
    <div class="card">
       <div class="card-header">
@@ -66,7 +66,7 @@
          </div>
          <p class="card-desc">Nuestros laboratorios de última generación permiten a los estudiantes desarrollar proyectos científicos y tecnológicos con los más altos estándares de calidad.</p>
       </div>
-      <a href="../sp/actividades_extraescolares.php" class="cta-btn">Explora nuestras áreas</a>
+      <a href="../sp/modelo_educativo.php" class="cta-btn">Explora nuestras áreas</a>
    </div>
    <div class="card">
       <div class="card-header">
@@ -77,7 +77,7 @@
          </div>
          <p class="card-desc">Fomentamos un estilo de vida saludable con canchas de fútbol, baloncesto, gimnasio y espacios diseñados para la recreación y el deporte.</p>
       </div>
-      <a href="../sp/actividades_extraescolares.php" class="cta-btn">Explora nuestras áreas</a>
+      <a href="../sp/modelo_educativo.php" class="cta-btn">Explora nuestras áreas</a>
    </div>
    <div class="card">
       <div class="card-header">
@@ -88,7 +88,7 @@
          </div>
          <p class="card-desc">Nuestra biblioteca digital ofrece acceso a una amplia gama de recursos académicos y científicos, facilitando la investigación y el aprendizaje autónomo.</p>
       </div>
-      <a href="../sp/actividades_extraescolares.php" class="cta-btn">Explora nuestras áreas</a>
+      <a href="../sp/modelo_educativo.php" class="cta-btn">Explora nuestras áreas</a>
    </div>
 </div>
 

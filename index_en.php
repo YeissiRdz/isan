@@ -35,8 +35,8 @@
                   <h1>Our <br> degrees <br> educational</h1>
                   <div class="line"></div>
                   <div class="btn-more-container">
-                     <div class="learn-more-button"><a href="../sp_en/.php">View law</a></div>
-                     <div class="learn-more-button"><a href="../sp_en/">View public accounting</a></div>
+                     <div class="learn-more-button"><a href="../sp_en/derecho_en.php">View law</a></div>
+                     <div class="learn-more-button"><a href="../sp_en/contaduria_en.php">View public accounting</a></div>
                   </div>
                </div>
             </div>
@@ -46,8 +46,8 @@
                   <h1>Our <br> master’s degrees <br> educational</h1>
                   <div class="line"></div>
                   <div class="btn-more-container">
-                     <div class="learn-more-button"><a href="../sp_en/">View law</a></div>
-                     <div class="learn-more-button"><a href="../sp_en/">View public accounting</a></div>
+                     <div class="learn-more-button"><a href="../sp_en/maestria_derecho_en.php">View law</a></div>
+                     <div class="learn-more-button"><a href="../sp_en/maestria_contaduria_en.php">View public accounting</a></div>
                   </div>
                </div>
             </div>

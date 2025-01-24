@@ -11,7 +11,7 @@
 <?php include_once("rp/navbar.php") ?>
 
 <body>
-   
+
    <section id="section-1">
       <div class="content-slider">
          <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
@@ -36,8 +36,8 @@
                   <h1>Nuestras <br> licenciaturas <br> educativas</h1>
                   <div class="line"></div>
                   <div class="btn-more-container">
-                     <div class="learn-more-button"><a href="../sp/primaria.php">Ver en derecho</a></div>
-                     <div class="learn-more-button"><a href="../sp/secundaria.php">Ver contaduría pública</a></div>
+                     <div class="learn-more-button"><a href="../sp/derecho.php">Ver en derecho</a></div>
+                     <div class="learn-more-button"><a href="../sp/contaduria.php">Ver contaduría pública</a></div>
                   </div>
                </div>
             </div>
@@ -47,8 +47,8 @@
                   <h1>Nuestras <br> maestrías <br> educativas</h1>
                   <div class="line"></div>
                   <div class="btn-more-container">
-                     <div class="learn-more-button"><a href="../sp/primaria.php">Ver en derecho</a></div>
-                     <div class="learn-more-button"><a href="../sp/secundaria.php">Ver contaduría pública</a></div>
+                     <div class="learn-more-button"><a href="../sp/maestria_derecho.php">Ver en derecho</a></div>
+                     <div class="learn-more-button"><a href="../sp/maestria_contaduria.php">Ver contaduría pública</a></div>
                   </div>
                </div>
             </div>

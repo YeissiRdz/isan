@@ -10,11 +10,11 @@
          <h3>Académico</h3>
          <ul>
             <li><a href="../sp/modelo_educativo.php">Modelo educativo</a></li>
-            <li><a href="../sp/preescolar.php">Preparatoria Abierta</a></li>
-            <li><a href="../sp/preescolar.php">Licenciatura en Derecho</a></li>
-            <li><a href="../sp/primaria.php">Licenciatura en Contaduría Pública</a></li>
-            <li><a href="../sp/secundaria.php">Maestría en Derecho</a></li>
-            <li><a href="../sp/secundaria.php">Maestría en Contaduría Pública </a></li>
+            <li><a href="../sp/preparatoria_abierta.php">Preparatoria Abierta</a></li>
+            <li><a href="../sp/derecho.php">Licenciatura en Derecho</a></li>
+            <li><a href="../sp/contaduria.php">Licenciatura en Contaduría Pública</a></li>
+            <li><a href="../sp/maestria_derecho.php">Maestría en Derecho</a></li>
+            <li><a href="../sp/maestria_contaduria.php">Maestría en Contaduría Pública </a></li>
          </ul>
       </div>
       <div class="footer-section">

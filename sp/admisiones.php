@@ -12,7 +12,6 @@
 
 
 <body>
-
    <div class="page">
       <!-- tabs -->
       <div class="pcss3t pcss3t-effect-scale pcss3t-theme-1">
@@ -66,7 +65,8 @@
                </ul>
                <h2 class="h2">Examen de Admisión</h2>
                <p class="p-a">El examen de admisión evalúa habilidades matemáticas, comprensión lectora, redacción y razonamiento lógico. Es fundamental obtener un puntaje mínimo para ser considerado en la siguiente etapa.</p>
-               <p class="text-right"><em>Más detalles sobre el proceso de admisión en <a href="../sp/licenciaturas.php" target="_blank">Licenciaturas</a>.</em></p>
+               <p class="text-right"><em>Más detalles sobre el proceso de admisión en <a href="../sp/derecho.php" target="_blank">Licenciatura en derecho</a>.</em></p>
+               <p class="text-right"><em>Más detalles sobre el proceso de admisión en <a href="../sp/contaduria.php" target="_blank">Licenciatura en contaduría</a>.</em></p>
             </li>
 
             <li class="tab-content tab-content-3 typography">
@@ -85,7 +85,8 @@
                <p class="p-a">El proceso incluye una entrevista en la que se analiza la trayectoria profesional, las aspiraciones académicas y la compatibilidad con el programa seleccionado.</p>
                <h2 class="h2">Evaluación de Competencias</h2>
                <p class="p-a">Se aplicará una prueba de conocimientos generales y específicos relacionados con el área de estudio. Esta evaluación asegura que el estudiante cuenta con la base necesaria para cursar la maestría.</p>
-               <p class="text-right"><em>Más detalles sobre el proceso de admisión en <a href="../sp/maestrias.php" target="_blank">Maestrías</a>.</em></p>
+               <p class="text-right"><em>Más detalles sobre el proceso de admisión en <a href="../sp/maestria_derecho.php" target="_blank">Maestría en derecho</a>.</em></p>
+               <p class="text-right"><em>Más detalles sobre el proceso de admisión en <a href="../sp/maestria_contaduria.php" target="_blank">Maestría en contaduría</a>.</em></p>
             </li>
          </ul>
 

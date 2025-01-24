@@ -55,7 +55,7 @@
          </div>
          <p class="card-desc">Our modern facilities provide an excellent educational environment, with spaces designed to foster innovation, professional development, and personal growth.</p>
       </div>
-      <a href="../sp/actividades_extraescolares.php" class="cta-btn">Explore our areas</a>
+      <a href="../sp_en/modelo_educativo_en.php" class="cta-btn">Explore our areas</a>
    </div>
    <div class="card">
       <div class="card-header">
@@ -66,7 +66,7 @@
          </div>
          <p class="card-desc">Our state-of-the-art laboratories allow students to develop scientific and technological projects with the highest quality standards.</p>
       </div>
-      <a href="../sp/actividades_extraescolares.php" class="cta-btn">Explore our areas</a>
+      <a href="../sp_en/modelo_educativo_en.php" class="cta-btn">Explore our areas</a>
    </div>
    <div class="card">
       <div class="card-header">
@@ -77,7 +77,7 @@
          </div>
          <p class="card-desc">We promote a healthy lifestyle with soccer fields, basketball courts, a gym, and spaces designed for recreation and sports.</p>
       </div>
-      <a href="../sp/actividades_extraescolares.php" class="cta-btn">Explore our areas</a>
+      <a href="../sp_en/modelo_educativo_en.php" class="cta-btn">Explore our areas</a>
    </div>
    <div class="card">
       <div class="card-header">
@@ -88,7 +88,7 @@
          </div>./img_sp/instalaciones/img4_instal.png
          <p class="card-desc">Our digital library offers access to a wide range of academic and scientific resources, facilitating research and self-directed learning.</p>
       </div>
-      <a href="../sp/actividades_extraescolares.php" class="cta-btn">Explore our areas</a>
+      <a href="../sp_en/modelo_educativo_en.php" class="cta-btn">Explore our areas</a>
    </div>
 </div>
 

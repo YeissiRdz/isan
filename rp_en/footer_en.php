@@ -40,7 +40,7 @@
          </p>
          <p>tel:+52 (871) 734 6322</p>
          <br>
-         <a class="ac-button" href="../sp/agenda_una_cita.php">Schedule Appointment</a>
+         <a class="ac-button" href="../sp_en/agenda_una_cita_en.php">Schedule Appointment</a>
       </div>
       <div class="footer-section logo-section">
          <img src="../img_rp/footer/logo_footer.webp" alt="Faraday Logo">

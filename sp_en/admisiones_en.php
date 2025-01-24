@@ -65,7 +65,8 @@
                </ul>
                <h2 class="h2">Admission Exam</h2>
                <p class="p-a">The admission exam assesses mathematical skills, reading comprehension, writing, and logical reasoning. A minimum score is required to proceed to the next stage.</p>
-               <p class="text-right"><em>More details about the admission process at <a href="../en/bachelors.php" target="_blank">Bachelor's Degrees</a>.</em></p>
+               <p class="text-right"><em>More details about the admission process at <a href="../sp_en/maestria_derecho_en.php" target="_blank">Bachelor's Law Degrees</a>.</em></p>
+               <p class="text-right"><em>More details about the admission process at <a href="../sp_en/contaduria_en.php" target="_blank">Bachelor's Accounting Degrees</a>.</em></p>
             </li>
 
             <li class="tab-content tab-content-3 typography">
@@ -84,7 +85,8 @@
                <p class="p-a">The process includes an interview to analyze professional background, academic aspirations, and compatibility with the selected program.</p>
                <h2 class="h2">Competency Evaluation</h2>
                <p class="p-a">A general and field-specific knowledge test will be administered to ensure the student has the necessary foundation to pursue the master's degree.</p>
-               <p class="text-right"><em>More details about the admission process at <a href="../en/masters.php" target="_blank">Master's Degrees</a>.</em></p>
+               <p class="text-right"><em>More details about the admission process at <a href="../sp/maestria_contaduria.php" target="_blank">Master's Law Degrees</a>.</em></p>
+               <p class="text-right"><em>More details about the admission process at <a href="../sp/maestria_derecho.php" target="_blank">Master's Accounting Degrees</a>.</em></p>
             </li>
          </ul>
 
