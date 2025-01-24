@@ -11,10 +11,10 @@
          <ul>
             <li><a href="../sp_en/modelo_educativo_en.php">Educational Model</a></li>
             <li><a href="../sp_en/preparatoria_abierta_en.php">Open High School</a></li>
-            <li><a href="../sp_en/">Bachelor's Degree in Law</a></li>
-            <li><a href="../sp_en/">Bachelor's Degree in Public Accounting</a></li>
-            <li><a href="../sp_en/">Master's Degree in Law</a></li>
-            <li><a href="../sp_en/">Master's Degree in Public Accounting</a></li>
+            <li><a href="../sp_en/derecho_en.php">Bachelor's Degree in Law</a></li>
+            <li><a href="../sp_en/contaduria_en.php">Bachelor's Degree in Public Accounting</a></li>
+            <li><a href="../sp_en/maestria_derecho_en.php">Master's Degree in Law</a></li>
+            <li><a href="../sp_en/maestria_contaduria_en.php">Master's Degree in Public Accounting</a></li>
          </ul>
       </div>
       <div class="footer-section">

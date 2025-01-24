@@ -36,10 +36,10 @@
             <div class="dropdown">
                <a href="javascript:void(0)" class="dropdown-toggle">Higher Education</a>
                <div class="dropdown-menu">
-                  <a href="../sp/.php">Bachelor's in Law</a>
-                  <a href="../sp/.php">Bachelor's in Public Accounting</a>
-                  <a href="../sp/.php">Master's in Law</a>
-                  <a href="../sp/.php">Master's in Public Accounting</a>
+                  <a href="../sp_en/contaduria_en.php">Bachelor's in Law</a>
+                  <a href="../sp_en/contaduria_en.php">Bachelor's in Public Accounting</a>
+                  <a href="../sp_en/maestria_derecho_en.php">Master's in Law</a>
+                  <a href="../sp_en/maestria_contaduria_en.php">Master's in Public Accounting</a>
                </div>
             </div>
 
@@ -73,7 +73,7 @@
 
       <span class="contact-infonm"><a href="mailto:admisiones@isan.edu.mx" target="_blank"><i class="fa-solid fa-envelope"></i>Send an Email</a></span>
       <span class="contact-infonm"><a href="tel:+528717346322"><i class="fa-solid fa-phone"></i>(871) 734 6322</a></span>
-      <span class="contact-infoac"><a href="../sp/agenda_una_cita.php">Schedule an Appointment</a></span>
+      <span class="contact-infoac"><a href="../sp_en/agenda_una_cita_en.php">Schedule an Appointment</a></span>
 
       <input type="checkbox" id="toggle" style="display: none;" />
       <label class="toggle-btn toggle-btn__cross" for="toggle">
@@ -84,20 +84,20 @@
       <nav class="navbar-nav">
          <ul>
             <li>
-               <a href="../sp/modelo_educativo.php">Educational Model</a>
+               <a href="../sp_en/modelo_educativo_en.php">Educational Model</a>
             </li>
 
             <li>
-               <a href="../sp/preparatoria.php">High School</a>
+               <a href="../sp_en/preparatoria_En.php">High School</a>
             </li>
 
             <li class="has-dropdown">
                <a href="javascript:void(0)" class="dropdown-toggle">Higher Education</a>
                <ul class="dropdown">
-                  <a class="dph" href="../sp/.php">Bachelor's in Law</a>
-                  <a class="dph" href="../sp/.php">Bachelor's in Public Accounting</a>
-                  <a class="dph" href="../sp/.php">Master's in Law</a>
-                  <a class="dph" href="../sp/.php">Master's in Public Accounting</a>
+                  <a class="dph" href="../sp_en/derecho_en.php">Bachelor's in Law</a>
+                  <a class="dph" href="../sp_en/contaduria_en.php">Bachelor's in Public Accounting</a>
+                  <a class="dph" href="../sp_en/maestria_derecho_en.php">Master's in Law</a>
+                  <a class="dph" href="../sp_en/maestria_contaduria_en.php">Master's in Public Accounting</a>
                </ul>
             </li>
             <li class="has-dropdown">
