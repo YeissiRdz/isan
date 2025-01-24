@@ -4,7 +4,8 @@
 <link rel="stylesheet" href="../styles_sp/becas_convenios.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 <script src="sp.js"></script>
-
+<?php include_once("../rp/head.php") ?>
+<?php include_once("../rp/navbar.php") ?>
 
 <body>
 
@@ -215,7 +216,6 @@
             </div>
         </div>
     </section>
-
 </body>
 <script>
 function openModal(modalId) {
@@ -234,4 +234,5 @@ function closeModal(modalId) {
     modal.style.display = 'none';
 }
 </script>
+<?php include_once("../rp/footer.php") ?>
 </html>

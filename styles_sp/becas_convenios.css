@@ -1394,12 +1394,6 @@ body {
 
 
 
-
-
-
-
-
-
 @media (min-width: 981px) and (max-width: 1280px){
     .first_section_niveles_educativos {
         width: 100%;
@@ -2622,7 +2616,89 @@ body {
         color: #fff; 
     }
 
+    .seventh_section {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 1.5rem 0;
+        position: relative; 
+    }
     
+    .seventh_section_grid {
+        display: grid;
+        grid-template-columns: 55% 45%;
+        width: 100%;
+        position: relative;
+    }
+    
+    .seventh_section_grid_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%; 
+        height: auto;
+        position: relative; 
+    }
+    
+    .seventh_section_grid_div {
+        background: linear-gradient(#003466, #0f3050);
+    }
+    
+    .seventh_section_anuncio {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        background-color: #fff;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: start;
+        z-index: 10;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+        padding: 1rem 1rem;
+        border-radius: 10px;
+    }
+    
+    .seventh_section_anuncio h2 {
+        color: #003466;
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+    
+    .seventh_section_anuncio ul {
+        font-size: 14px;
+        margin-bottom: 1rem;
+        line-height: 130%;
+        color: #505254;
+    }
+    
+    li::marker {
+        color: #ffcb36;
+    }
+    
+    .seventh_section_anuncio a {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 400;
+        width: 180px;
+        height: 30px;
+        background-color: #ffcb36;
+        color: #0e0b0e;
+        border-radius: 8px;
+        transition: background-color 0.4s ease, color 0.4s ease;
+    }
+    
+    .seventh_section_anuncio a:hover {
+        background-color: #9c7b1f;
+        color: #fff;
+    }
 
 
     .eighth_section {
