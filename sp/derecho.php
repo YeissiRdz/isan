@@ -5,14 +5,15 @@
 <script src="sp.js"></script>
 <?php include_once("../rp/head.php") ?>
 <?php include_once("../rp/navbar.php") ?>
+
 <body>
 
     <section class="first_section_niveles_educativos">
-                <div class="first_section_niveles_educativos_img" style="background-image: url(../img_sp/derecho/portada.png);"></div>
-                <div class="first_section_niveles_educativos_portada">
-                    <h2 class="first_section_niveles_educativos_title">Licenciatura en Derecho ISAN</h2>
-                    <p class="first_section_niveles_educativos_sibtitle">Formamos abogados preparados para liderar y resolver desafíos legales en instituciones de prestigio.</p>
-                </div>
+        <div class="first_section_niveles_educativos_img" style="background-image: url(../img_sp/derecho/portada.png);"></div>
+        <div class="first_section_niveles_educativos_portada">
+            <h2 class="first_section_niveles_educativos_title">Licenciatura en Derecho ISAN</h2>
+            <p class="first_section_niveles_educativos_sibtitle">Formamos abogados preparados para liderar y resolver desafíos legales en instituciones de prestigio.</p>
+        </div>
     </section>
 
     <section class="second_section">
@@ -87,7 +88,7 @@
                     <input type="email" name="email" placeholder="correo@ejemplo.com.mx*" required>
                     <button type="submit">Enviar</button>
                 </form>
-                <a href="javascript:void(0)" class="privacy_notice">Aviso de privacidad</a>
+                <a href="../sp/politicas_de_privacidad.php" class="privacy_notice">Políticas de Privacidad</a>
             </div>
         </div>
     </section>
@@ -104,7 +105,7 @@
                 <p><strong>Horario extendido:</strong> 3:00 pm a 4:30 pm</p>
             </div>
             <div class="fifth_section_grid_button">
-                <a href="javascript:void(0)">Agenda una Cita</a>
+                <a href="../sp/agenda_una_cita.php">Agenda una Cita</a>
             </div>
         </div>
     </section>
@@ -226,7 +227,7 @@
 
 
     <section class="ninth_section">
-        <div class="ninth_section_grid"> 
+        <div class="ninth_section_grid">
             <div class="ninth_section_img">
                 <div class="ninth_section_gradient"></div>
                 <div class="ninth_section_content">
@@ -246,7 +247,8 @@
             </div>
             <div class="ninth_section_info">
                 <h2><strong>Becas y</strong>
-                <br>Convenios</h2>
+                    <br>Convenios
+                </h2>
                 <p>Descuento a colaboradores de empresas y estudiantes provenientes de colegios con convenio.</p>
                 <a href="javascriot:void(0)"><strong>Más Información <i class="fa-solid fa-chevron-right"></i></strong></a>
             </div>
@@ -428,4 +430,5 @@
     };
 </script>
 <?php include_once("../rp/footer.php") ?>
+
 </html>
